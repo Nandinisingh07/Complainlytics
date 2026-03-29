@@ -2,51 +2,59 @@ Complainlytics
 
 AI-powered complaint analytics and grievance intelligence platform
 
-->Overview
-Complainlytics transforms raw customer complaints into actionable insights using AI, NLP, and real-time analytics. It helps organizations detect patterns, prioritize issues, and improve resolution efficiency.
+AI-powered complaint analytics and grievance intelligence platform that transforms raw customer complaints into actionable insights using Natural Language Processing and machine learning.
 
-->Features
+Overview
 
-* Complaint dashboard with analytics
+Complainlytics helps organizations analyze large volumes of customer complaints efficiently. It automatically classifies complaints, detects duplicates, identifies trends, and provides actionable insights to improve decision-making and customer satisfaction.
+
+Features
+
+* Interactive complaint dashboard with analytics
 * NLP-based classification (category, sentiment, severity)
-* Duplicate complaint detection
-* Trend analysis and insights
+* Duplicate complaint detection system
+* Trend analysis and pattern recognition
 * AI-generated response suggestions
 
-->Tech Stack
+Tech Stack
 
-* Frontend: React + TypeScript + Tailwind
-* Backend: Python (Flask/FastAPI)
-* AI/NLP: Scikit-learn / NLP models
-* Data: CSV datasets
+Frontend: React, TypeScript, Tailwind CSS
+Backend: Python (Flask / FastAPI)
+AI/NLP: Scikit-learn, NLP models
+Data: CSV datasets
 
-->Project Structure
+Project Structure
 
-backend/ → API and data processing
-frontend/ → Dashboard UI
-nlp/ → ML models and pipeline
-genai/ → AI response generation
-data/ → Sample datasets
+backend/ - API and backend logic
+frontend/ - User interface and dashboard
+nlp/ - Machine learning models and NLP pipeline
+genai/ - AI response generation
+data/ - Sample datasets
 
-->How to Run
+How to Run
 
 Backend
+
 cd backend
 python app.py
 
 Frontend
+
 cd frontend
 npm install
 npm run dev
 
-->Use Case
-Designed for organizations to manage and analyze large volumes of customer complaints efficiently.
+Use Case
 
-->Author
+This project is designed for organizations to manage and analyze customer complaints efficiently, enabling faster resolution, better prioritization, and improved customer experience.
+
+Author
+
 Nandini Singh
 
-->Future Improvements
+Future Improvements
 
-* Real-time streaming complaints
+* Real-time complaint streaming
 * Advanced deep learning models
-* Cloud deployment (AWS/GCP)
+* Cloud deployment (AWS / GCP)
+* User authentication and role-based access
