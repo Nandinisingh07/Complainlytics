@@ -4,14 +4,19 @@ import json
 import time
 import random
 from tqdm import tqdm
+import os
 
 # ─────────────────────────────────────────
 # CONFIG — paste your Gemini API key here
 # ─────────────────────────────────────────
-GOOGLE_API_KEY=your_new_api_key_here
-genai.configure(api_key=GEMINI_API_KEY)
-model = genai.GenerativeModel("gemini-2.5-flash")
+GEMINI_API_KEY = os.getenv("GOOGLE_API_KEY")
 
+if not GEMINI_API_KEY:
+    raise ValueError("API key not found. Set GOOGLE_API_KEY in environment variables.")
+
+genai.configure(api_key=GEMINI_API_KEY)
+
+model = genai.GenerativeModel("gemini-2.5-flash")
 # ─────────────────────────────────────────
 # COMPLAINT CATEGORIES & CHANNELS
 # ─────────────────────────────────────────
