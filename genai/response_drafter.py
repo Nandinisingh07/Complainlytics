@@ -9,7 +9,7 @@ import time
 # ─────────────────────────────────────────
 # CONFIG — paste your Gemini API key here
 # ─────────────────────────────────────────
-GEMINI_API_KEY = "AIzaSyD_6xFl2-33bq6keriR-xvla5k8CNdKjqA"
+GEMINI_API_KEY = "API_key_here"
 
 client = genai.Client(api_key=GEMINI_API_KEY)
 MODEL  = "gemini-2.5-flash"
