@@ -8,7 +8,7 @@ from tqdm import tqdm
 # ─────────────────────────────────────────
 # CONFIG — paste your Gemini API key here
 # ─────────────────────────────────────────
-GEMINI_API_KEY = "AIzaSyCVPqUcVEVpjvqpJSt4vrzb_FGlmuFknRk"
+GOOGLE_API_KEY=your_new_api_key_here
 genai.configure(api_key=GEMINI_API_KEY)
 model = genai.GenerativeModel("gemini-2.5-flash")
 
