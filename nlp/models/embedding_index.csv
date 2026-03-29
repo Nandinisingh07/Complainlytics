@@ -1,0 +1,543 @@
+complaint_id,complaint_text,is_duplicate
+CMP2204,Net banking is not working on my new laptop. It works on mobile but not on the computer. Kindly look into this urgently.,False
+CMP1090,Mobile banking app on iOS is crashing after the latest update. Please rollback or fix the update immediately.,False
+CMP2036,ATM dispensed less cash than the amount requested but full amount was debited from my account. Kindly look into this urgently.,False
+CMP2273,My gold loan is due for renewal but the branch is not responding to my renewal request.,False
+CMP2114,Email sent to customer support 3 weeks ago has not received any response whatsoever. Kindly look into this urgently.,False
+CMP9003,Senior citizen parent had a very bad experience at the branch. Staff was impatient and did not assist properly.,True
+CMP1036,Senior citizen parent had a very bad experience at the branch. Staff was impatient and did not assist properly.,False
+CMP2123,Email sent to customer support 3 weeks ago has not received any response whatsoever. Kindly look into this urgently.,False
+CMP1063,Aadhaar based KYC verification is failing repeatedly on the bank app even though my Aadhaar details are correct.,False
+CMP2205,I am writing to complain about the following issue. Net banking is not working on my new laptop. It works on mobile but not on the computer.,False
+CMP2188,I am writing to complain about the following issue. I cannot view my account mini statement on net banking. The page gives a blank screen.,False
+CMP2108,I visited the branch 4 times for a simple signature update but the work is still not done.,False
+CMP1111,Premature withdrawal of FD is showing much higher penalty than what is mentioned in the terms and conditions.,False
+CMP2184,I cannot view my account mini statement on net banking. The page gives a blank screen. Kindly look into this urgently.,False
+CMP2360,Recurring deposit account not opening through net banking. Error at the final step.,False
+CMP2350,Aadhaar seeding with bank account not completed even after submitting request at branch. Kindly look into this urgently.,False
+CMP2255,I am writing to complain about the following issue. Loan repayment schedule shared at disbursement does not match what is being deducted as EMI.,False
+CMP2017,I am writing to complain about the following issue. I have not received my debit card after opening account 3 weeks ago. Please dispatch it urgently.,False
+CMP2135,I am writing to complain about the following issue. Toll free number does not connect to any agent after 30 minutes of waiting. This is ridiculous.,False
+CMP2195,I cannot view my account mini statement on net banking. The page gives a blank screen.,False
+CMP9019,Cannot change my mobile banking MPIN through the app. Getting an error at the last step after entering OTP. Kindly resolve on priority basis.,True
+CMP2136,Toll free number does not connect to any agent after 30 minutes of waiting. This is ridiculous.,False
+CMP2312,Cannot download my account statement from the mobile app. Option is greyed out.,False
+CMP2090,I am writing to complain about the following issue. Credit card upgrade to platinum was rejected without any reason. My income and repayment history are excellent.,False
+CMP2351,Recurring deposit account not opening through net banking. Error at the final step.,False
+CMP2344,Aadhaar seeding with bank account not completed even after submitting request at branch. Kindly look into this urgently.,False
+CMP2267,My gold loan is due for renewal but the branch is not responding to my renewal request.,False
+CMP1050,Net banking password reset option is not working. OTP is being sent to old mobile number which I no longer use.,False
+CMP2186,I cannot view my account mini statement on net banking. The page gives a blank screen.,False
+CMP2004,My debit card transaction was declined at the petrol pump even though I have sufficient balance. This is very inconvenient.,False
+CMP2244,I am writing to complain about the following issue. Bank is not accepting digital Aadhaar for KYC. Physical Aadhaar was lost and reprint takes time.,False
+CMP2118,I am writing to complain about the following issue. Email sent to customer support 3 weeks ago has not received any response whatsoever.,False
+CMP2264,I am writing to complain about the following issue. Loan repayment schedule shared at disbursement does not match what is being deducted as EMI.,False
+CMP1010,My ATM card expired last month and I applied for renewal but have not received the new card yet. Please expedite.,False
+CMP2295,Mobile app does not support the latest Android version. I cannot use banking on my new phone.,False
+CMP2230,I am writing to complain about the following issue. My mobile number update request is pending for 1 month. I cannot receive OTPs on old number.,False
+CMP1024,My add-on credit card for my spouse was blocked without any reason. This is causing inconvenience to my family.,False
+CMP2050,Debit card tokenization is not working on e-commerce websites. I cannot make any online purchases. Kindly look into this urgently.,False
+CMP2340,Aadhaar seeding with bank account not completed even after submitting request at branch.,False
+CMP1031,Customer care chat support is not available during weekends. Had an urgent issue and could not get any help.,False
+CMP1023,Foreign currency transaction charges are much higher than what was disclosed in the card terms and conditions.,False
+CMP2056,Debit card tokenization is not working on e-commerce websites. I cannot make any online purchases. Kindly look into this urgently.,False
+CMP2193,I cannot view my account mini statement on net banking. The page gives a blank screen. Kindly look into this urgently.,False
+CMP2067,Credit card minimum due amount is calculated incorrectly on my latest statement. I am being overcharged. Kindly look into this urgently.,False
+CMP9016,Foreign currency transaction charges are much higher than what was disclosed in the card terms and conditions.,True
+CMP2047,Debit card tokenization is not working on e-commerce websites. I cannot make any online purchases. Kindly look into this urgently.,False
+CMP1103,Account opened but debit card and cheque book not received even after 4 weeks. No tracking information provided.,False
+CMP1012,Duplicate charges appearing on my debit card statement. Same merchant has charged me twice for one transaction.,False
+CMP2045,I am writing to complain about the following issue. Debit card tokenization is not working on e-commerce websites. I cannot make any online purchases.,False
+CMP1074,Loan foreclosure charges are much higher than what was mentioned in the loan agreement. Please clarify and correct.,False
+CMP1018,Credit card EMI conversion request submitted 10 days ago is still pending. No update provided by customer service.,False
+CMP2318,Cannot download my account statement from the mobile app. Option is greyed out.,False
+CMP1067,Nomination update form submitted at the branch but not updated in the system even after repeated follow ups.,False
+CMP2311,I am writing to complain about the following issue. Cannot download my account statement from the mobile app. Option is greyed out.,False
+CMP2125,Email sent to customer support 3 weeks ago has not received any response whatsoever.,False
+CMP2240,Bank is not accepting digital Aadhaar for KYC. Physical Aadhaar was lost and reprint takes time. Kindly look into this urgently.,False
+CMP2334,I am writing to complain about the following issue. Mobile banking PIN gets reset automatically every few days forcing me to set it again.,False
+CMP2112,I visited the branch 4 times for a simple signature update but the work is still not done. Kindly look into this urgently.,False
+CMP2109,I visited the branch 4 times for a simple signature update but the work is still not done. Kindly look into this urgently.,False
+CMP1119,FD certificate requested at branch not issued even after 3 weeks. I need it for a visa application urgently.,False
+CMP2238,My mobile number update request is pending for 1 month. I cannot receive OTPs on old number. Kindly look into this urgently.,False
+CMP2375,I cannot find the option to break my FD prematurely in the net banking portal. Kindly look into this urgently.,False
+CMP1109,FD maturity amount was not credited to my savings account on the maturity date. It has been 5 days past maturity.,False
+CMP2245,Bank is not accepting digital Aadhaar for KYC. Physical Aadhaar was lost and reprint takes time.,False
+CMP1108,Student account opened but education loan linkage promised at account opening has not been done by the branch.,False
+CMP1106,Minor account conversion to regular account on attaining 18 years is not processed. Account is still showing as minor.,False
+CMP1057,Net banking login page is not loading properly on any browser. I have tried Chrome Firefox and Edge all fail.,False
+CMP9026,This is regarding my previous complaint. Student account opened but education loan linkage promised at account opening has not been done by the branch.,True
+CMP2373,I am writing to complain about the following issue. I cannot find the option to break my FD prematurely in the net banking portal.,False
+CMP2019,I have not received my debit card after opening account 3 weeks ago. Please dispatch it urgently. Kindly look into this urgently.,False
+CMP2250,I am writing to complain about the following issue. Bank is not accepting digital Aadhaar for KYC. Physical Aadhaar was lost and reprint takes time.,False
+CMP2116,Email sent to customer support 3 weeks ago has not received any response whatsoever.,False
+CMP2077,My credit card was not delivered to my address even after 3 weeks of application approval.,False
+CMP2117,Email sent to customer support 3 weeks ago has not received any response whatsoever. Kindly look into this urgently.,False
+CMP9010,I have been charged an annual fee of Rs 2000 on my credit card even though I was promised a lifetime free card at the time of issuance.,True
+CMP2080,My credit card was not delivered to my address even after 3 weeks of application approval.,False
+CMP1081,Loan account shows overdue amount even though all EMIs are paid on time. This is affecting my credit report.,False
+CMP2303,I am writing to complain about the following issue. Mobile app does not support the latest Android version. I cannot use banking on my new phone.,False
+CMP2119,Email sent to customer support 3 weeks ago has not received any response whatsoever.,False
+CMP1042,IMPS transfer done to wrong account by mistake. Bank is not helping with the reversal process. Need urgent assistance.,False
+CMP2383,FD amount was not renewed on maturity date and instead credited to savings causing loss of interest. Kindly look into this urgently.,False
+CMP2007,My debit card transaction was declined at the petrol pump even though I have sufficient balance. This is very inconvenient.,False
+CMP2113,Email sent to customer support 3 weeks ago has not received any response whatsoever.,False
+CMP1003,I tried to withdraw cash from ATM but the transaction failed and money got deducted from my account. Amount of Rs 5000 is still not credited back.,False
+CMP2339,I am writing to complain about the following issue. Aadhaar seeding with bank account not completed even after submitting request at branch.,False
+CMP1091,Cannot change my mobile banking MPIN through the app. Getting an error at the last step after entering OTP.,False
+CMP1093,QR code payment scan is not working in the mobile app. Camera opens but does not scan any QR code.,False
+CMP2002,My debit card transaction was declined at the petrol pump even though I have sufficient balance. This is very inconvenient. Kindly look into this urgently.,False
+CMP1059,Unable to add a new payee on net banking for the last 5 days. Getting error message every time I try to add.,False
+CMP2219,I am writing to complain about the following issue. My net banking account was suspended without any intimation. I have not violated any terms.,False
+CMP2313,Cannot download my account statement from the mobile app. Option is greyed out. Kindly look into this urgently.,False
+CMP2094,Credit card upgrade to platinum was rejected without any reason. My income and repayment history are excellent.,False
+CMP2214,My net banking account was suspended without any intimation. I have not violated any terms.,False
+CMP2257,Loan repayment schedule shared at disbursement does not match what is being deducted as EMI. Kindly look into this urgently.,False
+CMP2133,Toll free number does not connect to any agent after 30 minutes of waiting. This is ridiculous.,False
+CMP2041,ATM dispensed less cash than the amount requested but full amount was debited from my account.,False
+CMP1004,My debit card is not working at POS terminals for the past 3 days. Online transactions are also getting declined. Very embarrassing situation in public.,False
+CMP2231,My mobile number update request is pending for 1 month. I cannot receive OTPs on old number.,False
+CMP2212,My net banking account was suspended without any intimation. I have not violated any terms. Kindly look into this urgently.,False
+CMP2063,Credit card minimum due amount is calculated incorrectly on my latest statement. I am being overcharged.,False
+CMP2277,My gold loan is due for renewal but the branch is not responding to my renewal request. Kindly look into this urgently.,False
+CMP2324,Mobile banking PIN gets reset automatically every few days forcing me to set it again. Kindly look into this urgently.,False
+CMP2232,My mobile number update request is pending for 1 month. I cannot receive OTPs on old number. Kindly look into this urgently.,False
+CMP1101,Salary account opening request from my company HR is pending for 4 weeks. Salary cannot be credited without account.,False
+CMP2161,I sent money to wrong account number by mistake and need immediate help for reversal.,False
+CMP2353,I am writing to complain about the following issue. Recurring deposit account not opening through net banking. Error at the final step.,False
+CMP2148,Transfer to my own account in another bank is taking more than 24 hours to reflect. Kindly look into this urgently.,False
+CMP2377,I cannot find the option to break my FD prematurely in the net banking portal.,False
+CMP2111,I visited the branch 4 times for a simple signature update but the work is still not done.,False
+CMP1008,Daily ATM withdrawal limit was reduced without my consent. I was not informed about this change in my account.,False
+CMP2086,Credit card upgrade to platinum was rejected without any reason. My income and repayment history are excellent. Kindly look into this urgently.,False
+CMP2012,I am writing to complain about the following issue. My debit card transaction was declined at the petrol pump even though I have sufficient balance. This is very inconvenient.,False
+CMP2338,Aadhaar seeding with bank account not completed even after submitting request at branch. Kindly look into this urgently.,False
+CMP2091,Credit card upgrade to platinum was rejected without any reason. My income and repayment history are excellent.,False
+CMP2215,My net banking account was suspended without any intimation. I have not violated any terms. Kindly look into this urgently.,False
+CMP2220,My net banking account was suspended without any intimation. I have not violated any terms.,False
+CMP2089,Credit card upgrade to platinum was rejected without any reason. My income and repayment history are excellent. Kindly look into this urgently.,False
+CMP2169,Net banking shows transfer successful but beneficiary bank says no credit received.,False
+CMP2223,My net banking account was suspended without any intimation. I have not violated any terms.,False
+CMP2198,Net banking is not working on my new laptop. It works on mobile but not on the computer. Kindly look into this urgently.,False
+CMP2121,I am writing to complain about the following issue. Email sent to customer support 3 weeks ago has not received any response whatsoever.,False
+CMP2006,I am writing to complain about the following issue. My debit card transaction was declined at the petrol pump even though I have sufficient balance. This is very inconvenient.,False
+CMP2064,Credit card minimum due amount is calculated incorrectly on my latest statement. I am being overcharged. Kindly look into this urgently.,False
+CMP2335,Mobile banking PIN gets reset automatically every few days forcing me to set it again.,False
+CMP2337,Aadhaar seeding with bank account not completed even after submitting request at branch.,False
+CMP2038,ATM dispensed less cash than the amount requested but full amount was debited from my account.,False
+CMP2018,I have not received my debit card after opening account 3 weeks ago. Please dispatch it urgently.,False
+CMP2197,Net banking is not working on my new laptop. It works on mobile but not on the computer.,False
+CMP2207,Net banking is not working on my new laptop. It works on mobile but not on the computer. Kindly look into this urgently.,False
+CMP2087,I am writing to complain about the following issue. Credit card upgrade to platinum was rejected without any reason. My income and repayment history are excellent.,False
+CMP9021,I received a credit card statement showing transactions that I did not make. This looks like fraudulent activity on my account.,True
+CMP1035,I was promised a callback within 24 hours but it has been 5 days and no one has called me back yet.,False
+CMP9012,I have been calling the customer care number for the past 2 hours but the call keeps getting disconnected after long hold times. Extremely poor service.,True
+CMP9001,Mobile app session expires too quickly during transactions. By the time I enter OTP the session is already expired.,True
+CMP1015,My credit card limit was reduced from 2 lakhs to 50000 without any prior notice or reason. This is affecting my credit score.,False
+CMP2201,Net banking is not working on my new laptop. It works on mobile but not on the computer. Kindly look into this urgently.,False
+CMP2107,I am writing to complain about the following issue. I visited the branch 4 times for a simple signature update but the work is still not done.,False
+CMP2158,I sent money to wrong account number by mistake and need immediate help for reversal.,False
+CMP2015,I have not received my debit card after opening account 3 weeks ago. Please dispatch it urgently.,False
+CMP1114,Senior citizen FD interest rate benefit not applied to my deposits even after submitting age proof documents.,False
+CMP2162,I sent money to wrong account number by mistake and need immediate help for reversal. Kindly look into this urgently.,False
+CMP2222,I am writing to complain about the following issue. My net banking account was suspended without any intimation. I have not violated any terms.,False
+CMP2308,Mobile app does not support the latest Android version. I cannot use banking on my new phone. Kindly look into this urgently.,False
+CMP2171,I am writing to complain about the following issue. Net banking shows transfer successful but beneficiary bank says no credit received.,False
+CMP2328,I am writing to complain about the following issue. Mobile banking PIN gets reset automatically every few days forcing me to set it again.,False
+CMP1049,My net banking account is locked after 3 failed login attempts. Even after visiting the branch it has not been unlocked.,False
+CMP2322,Cannot download my account statement from the mobile app. Option is greyed out. Kindly look into this urgently.,False
+CMP2315,Cannot download my account statement from the mobile app. Option is greyed out.,False
+CMP2235,My mobile number update request is pending for 1 month. I cannot receive OTPs on old number. Kindly look into this urgently.,False
+CMP1029,Relationship manager allocated to my account never picks up calls or responds to emails. Very poor service quality.,False
+CMP2068,I am writing to complain about the following issue. Credit card minimum due amount is calculated incorrectly on my latest statement. I am being overcharged.,False
+CMP2058,Credit card minimum due amount is calculated incorrectly on my latest statement. I am being overcharged. Kindly look into this urgently.,False
+CMP1098,Savings account opening at the branch took 3 hours due to staff being unprepared and asking for documents multiple times.,False
+CMP1089,Transaction history in the app is not updated in real time. Yesterday transactions are still not showing today.,False
+CMP2115,I am writing to complain about the following issue. Email sent to customer support 3 weeks ago has not received any response whatsoever.,False
+CMP2085,Credit card upgrade to platinum was rejected without any reason. My income and repayment history are excellent.,False
+CMP2088,Credit card upgrade to platinum was rejected without any reason. My income and repayment history are excellent.,False
+CMP2252,Bank is not accepting digital Aadhaar for KYC. Physical Aadhaar was lost and reprint takes time. Kindly look into this urgently.,False
+CMP1080,Top-up loan request submitted 4 weeks ago with all documents. No decision communicated. I need funds urgently.,False
+CMP2221,My net banking account was suspended without any intimation. I have not violated any terms. Kindly look into this urgently.,False
+CMP2097,Credit card upgrade to platinum was rejected without any reason. My income and repayment history are excellent.,False
+CMP2179,Net banking shows transfer successful but beneficiary bank says no credit received. Kindly look into this urgently.,False
+CMP2304,Mobile app does not support the latest Android version. I cannot use banking on my new phone.,False
+CMP2365,I cannot find the option to break my FD prematurely in the net banking portal.,False
+CMP2258,I am writing to complain about the following issue. Loan repayment schedule shared at disbursement does not match what is being deducted as EMI.,False
+CMP1032,Complaint registered on the bank app shows resolved status but the actual issue has not been fixed at all.,False
+CMP2039,ATM dispensed less cash than the amount requested but full amount was debited from my account. Kindly look into this urgently.,False
+CMP2392,FD amount was not renewed on maturity date and instead credited to savings causing loss of interest. Kindly look into this urgently.,False
+CMP1053,Net banking website shows incorrect account balance. The balance shown is less than what should be in the account.,False
+CMP2293,Prepayment of loan not being accepted online. Being forced to visit branch which is far.,False
+CMP2262,Loan repayment schedule shared at disbursement does not match what is being deducted as EMI.,False
+CMP2391,FD amount was not renewed on maturity date and instead credited to savings causing loss of interest.,False
+CMP2083,My credit card was not delivered to my address even after 3 weeks of application approval.,False
+CMP2010,My debit card transaction was declined at the petrol pump even though I have sufficient balance. This is very inconvenient.,False
+CMP9013,This is regarding my previous complaint. RTGS transfer of Rs 2 lakhs failed midway and money was debited from my account but not credited to beneficiary. Please investigate urgently.,True
+CMP1118,Interest payout for monthly interest FD not received for last 2 months. No explanation provided by the bank.,False
+CMP2076,I am writing to complain about the following issue. My credit card was not delivered to my address even after 3 weeks of application approval.,False
+CMP1094,Push notifications for transactions are not coming to my phone even though notifications are enabled for the app.,False
+CMP2177,I am writing to complain about the following issue. Net banking shows transfer successful but beneficiary bank says no credit received.,False
+CMP2081,My credit card was not delivered to my address even after 3 weeks of application approval. Kindly look into this urgently.,False
+CMP2099,I visited the branch 4 times for a simple signature update but the work is still not done.,False
+CMP1104,NRI account opening process is very complicated. Documents submitted twice but keeps getting rejected for minor reasons.,False
+CMP2078,My credit card was not delivered to my address even after 3 weeks of application approval. Kindly look into this urgently.,False
+CMP1092,App shows wrong account balance compared to what I see on internet banking. There is a discrepancy of Rs 10000.,False
+CMP2174,I am writing to complain about the following issue. Net banking shows transfer successful but beneficiary bank says no credit received.,False
+CMP2366,I cannot find the option to break my FD prematurely in the net banking portal. Kindly look into this urgently.,False
+CMP2281,Prepayment of loan not being accepted online. Being forced to visit branch which is far.,False
+CMP2142,Transfer to my own account in another bank is taking more than 24 hours to reflect. Kindly look into this urgently.,False
+CMP2059,I am writing to complain about the following issue. Credit card minimum due amount is calculated incorrectly on my latest statement. I am being overcharged.,False
+CMP2011,My debit card transaction was declined at the petrol pump even though I have sufficient balance. This is very inconvenient. Kindly look into this urgently.,False
+CMP2260,Loan repayment schedule shared at disbursement does not match what is being deducted as EMI. Kindly look into this urgently.,False
+CMP1105,Account number provided at opening is different from what appears in the welcome kit. There seems to be an error.,False
+CMP2323,Mobile banking PIN gets reset automatically every few days forcing me to set it again.,False
+CMP2370,I am writing to complain about the following issue. I cannot find the option to break my FD prematurely in the net banking portal.,False
+CMP9002,This is regarding my previous complaint. KYC update done online was rejected without any reason or communication from the bank. Need clarity on what was wrong.,True
+CMP2172,Net banking shows transfer successful but beneficiary bank says no credit received.,False
+CMP1009,Contactless payment feature on my debit card is not working at most merchant terminals. Please look into this issue.,False
+CMP2126,Email sent to customer support 3 weeks ago has not received any response whatsoever. Kindly look into this urgently.,False
+CMP1087,App is not recognizing my fingerprint for login even though biometric login is enabled and fingerprint is registered.,False
+CMP1068,My account was marked dormant even though I had transactions in the last 6 months. Activation is taking too long.,False
+CMP2352,Recurring deposit account not opening through net banking. Error at the final step. Kindly look into this urgently.,False
+CMP2241,I am writing to complain about the following issue. Bank is not accepting digital Aadhaar for KYC. Physical Aadhaar was lost and reprint takes time.,False
+CMP2084,My credit card was not delivered to my address even after 3 weeks of application approval. Kindly look into this urgently.,False
+CMP2275,I am writing to complain about the following issue. My gold loan is due for renewal but the branch is not responding to my renewal request.,False
+CMP2168,I sent money to wrong account number by mistake and need immediate help for reversal. Kindly look into this urgently.,False
+CMP2298,Mobile app does not support the latest Android version. I cannot use banking on my new phone.,False
+CMP2160,I am writing to complain about the following issue. I sent money to wrong account number by mistake and need immediate help for reversal.,False
+CMP2061,Credit card minimum due amount is calculated incorrectly on my latest statement. I am being overcharged. Kindly look into this urgently.,False
+CMP2371,I cannot find the option to break my FD prematurely in the net banking portal.,False
+CMP1065,PAN card update request submitted 2 months ago is still not reflected in my account. Getting tax related issues.,False
+CMP2389,FD amount was not renewed on maturity date and instead credited to savings causing loss of interest. Kindly look into this urgently.,False
+CMP1006,Card was reported stolen and new card was promised within 7 days but it has been 15 days and I still have not received the replacement card.,False
+CMP9020,Video KYC appointment was scheduled but the bank representative did not join the call at the appointed time. Kindly resolve on priority basis.,True
+CMP2330,Mobile banking PIN gets reset automatically every few days forcing me to set it again. Kindly look into this urgently.,False
+CMP9017,UPI transfer failed but amount got deducted. It has been 5 days and the reversal has not happened yet. This is completely unacceptable. Kindly resolve on priority basis.,True
+CMP1022,Credit card statement not received for 2 consecutive months. Due date missed because of this and charges applied.,False
+CMP1047,Fund transfer confirmation email not received even after 24 hours. I am unable to confirm if transaction was successful.,False
+CMP2357,Recurring deposit account not opening through net banking. Error at the final step.,False
+CMP1020,Credit card application was rejected without providing any reason. My CIBIL score is above 750 and income is sufficient.,False
+CMP1113,FD created through net banking does not appear in my account statement. I have the confirmation but no FD visible.,False
+CMP2253,Loan repayment schedule shared at disbursement does not match what is being deducted as EMI.,False
+CMP2072,My credit card was not delivered to my address even after 3 weeks of application approval. Kindly look into this urgently.,False
+CMP2167,I sent money to wrong account number by mistake and need immediate help for reversal.,False
+CMP9027,Mobile banking app on iOS is crashing after the latest update. Please rollback or fix the update immediately. Kindly resolve on priority basis.,True
+CMP2199,I am writing to complain about the following issue. Net banking is not working on my new laptop. It works on mobile but not on the computer.,False
+CMP2170,Net banking shows transfer successful but beneficiary bank says no credit received. Kindly look into this urgently.,False
+CMP2147,Transfer to my own account in another bank is taking more than 24 hours to reflect.,False
+CMP1107,Senior citizen account benefits not applied to my account even though I submitted age proof at the time of opening.,False
+CMP2066,Credit card minimum due amount is calculated incorrectly on my latest statement. I am being overcharged.,False
+CMP2299,Mobile app does not support the latest Android version. I cannot use banking on my new phone. Kindly look into this urgently.,False
+CMP1070,KYC documents submitted at branch were lost by the bank staff. I had to resubmit everything again. Very unprofessional.,False
+CMP9025,Signature mismatch issue is blocking all my transactions but the signature I am using is the same as on file.,True
+CMP2129,I am writing to complain about the following issue. Toll free number does not connect to any agent after 30 minutes of waiting. This is ridiculous.,False
+CMP2185,I am writing to complain about the following issue. I cannot view my account mini statement on net banking. The page gives a blank screen.,False
+CMP2336,Mobile banking PIN gets reset automatically every few days forcing me to set it again. Kindly look into this urgently.,False
+CMP2380,FD amount was not renewed on maturity date and instead credited to savings causing loss of interest. Kindly look into this urgently.,False
+CMP2057,Credit card minimum due amount is calculated incorrectly on my latest statement. I am being overcharged.,False
+CMP2321,Cannot download my account statement from the mobile app. Option is greyed out.,False
+CMP2234,My mobile number update request is pending for 1 month. I cannot receive OTPs on old number.,False
+CMP9008,Loan EMI amount changed without any prior notice. I was not informed about any change in interest rate or tenure. I am a senior citizen and request priority service.,True
+CMP2192,I cannot view my account mini statement on net banking. The page gives a blank screen.,False
+CMP2021,I have not received my debit card after opening account 3 weeks ago. Please dispatch it urgently.,False
+CMP2029,ATM dispensed less cash than the amount requested but full amount was debited from my account.,False
+CMP2345,I am writing to complain about the following issue. Aadhaar seeding with bank account not completed even after submitting request at branch.,False
+CMP2163,I am writing to complain about the following issue. I sent money to wrong account number by mistake and need immediate help for reversal.,False
+CMP2157,I am writing to complain about the following issue. I sent money to wrong account number by mistake and need immediate help for reversal.,False
+CMP2143,I am writing to complain about the following issue. Transfer to my own account in another bank is taking more than 24 hours to reflect.,False
+CMP9004,QR code payment scan is not working in the mobile app. Camera opens but does not scan any QR code.,True
+CMP2189,I cannot view my account mini statement on net banking. The page gives a blank screen.,False
+CMP9018,ATM card was blocked without any prior intimation. I was unable to withdraw cash during an emergency situation. Please resolve this immediately.,True
+CMP2104,I am writing to complain about the following issue. I visited the branch 4 times for a simple signature update but the work is still not done.,False
+CMP2292,I am writing to complain about the following issue. Prepayment of loan not being accepted online. Being forced to visit branch which is far.,False
+CMP2290,Prepayment of loan not being accepted online. Being forced to visit branch which is far.,False
+CMP1115,TDS deducted on FD interest even though I had submitted Form 15G at the beginning of the financial year.,False
+CMP2274,My gold loan is due for renewal but the branch is not responding to my renewal request. Kindly look into this urgently.,False
+CMP2202,I am writing to complain about the following issue. Net banking is not working on my new laptop. It works on mobile but not on the computer.,False
+CMP1085,Mobile banking app crashes immediately after login every time I open it. I have reinstalled the app 3 times but same issue.,False
+CMP2110,I am writing to complain about the following issue. I visited the branch 4 times for a simple signature update but the work is still not done.,False
+CMP2046,Debit card tokenization is not working on e-commerce websites. I cannot make any online purchases.,False
+CMP2040,I am writing to complain about the following issue. ATM dispensed less cash than the amount requested but full amount was debited from my account.,False
+CMP1052,Download of account statement through net banking gives corrupted PDF file every time. Issue has been there for weeks.,False
+CMP2325,I am writing to complain about the following issue. Mobile banking PIN gets reset automatically every few days forcing me to set it again.,False
+CMP2294,Prepayment of loan not being accepted online. Being forced to visit branch which is far. Kindly look into this urgently.,False
+CMP2227,I am writing to complain about the following issue. My mobile number update request is pending for 1 month. I cannot receive OTPs on old number.,False
+CMP2101,I am writing to complain about the following issue. I visited the branch 4 times for a simple signature update but the work is still not done.,False
+CMP2348,I am writing to complain about the following issue. Aadhaar seeding with bank account not completed even after submitting request at branch.,False
+CMP2054,I am writing to complain about the following issue. Debit card tokenization is not working on e-commerce websites. I cannot make any online purchases.,False
+CMP2236,I am writing to complain about the following issue. My mobile number update request is pending for 1 month. I cannot receive OTPs on old number.,False
+CMP1117,Sweep in sweep out facility linked to my FD account is not working. FD is not being used to cover account shortfall.,False
+CMP2093,I am writing to complain about the following issue. Credit card upgrade to platinum was rejected without any reason. My income and repayment history are excellent.,False
+CMP1076,Pre-approved loan offer shown in app disappeared when I tried to apply. Customer care has no explanation for this.,False
+CMP1079,Loan statement showing incorrect outstanding amount. The principal shown is higher than what should remain after payments.,False
+CMP2166,I am writing to complain about the following issue. I sent money to wrong account number by mistake and need immediate help for reversal.,False
+CMP2149,I am writing to complain about the following issue. Transfer to my own account in another bank is taking more than 24 hours to reflect.,False
+CMP2359,I am writing to complain about the following issue. Recurring deposit account not opening through net banking. Error at the final step.,False
+CMP2217,My net banking account was suspended without any intimation. I have not violated any terms.,False
+CMP1014,Credit card bill payment was done on time but late payment charges have been applied to my account. Please reverse immediately.,False
+CMP2363,Recurring deposit account not opening through net banking. Error at the final step.,False
+CMP2173,Net banking shows transfer successful but beneficiary bank says no credit received. Kindly look into this urgently.,False
+CMP1099,Zero balance account was opened but the bank has started deducting quarterly maintenance charges after 3 months.,False
+CMP2069,Credit card minimum due amount is calculated incorrectly on my latest statement. I am being overcharged.,False
+CMP1039,UPI transfer failed but amount got deducted. It has been 5 days and the reversal has not happened yet. This is completely unacceptable.,False
+CMP2035,ATM dispensed less cash than the amount requested but full amount was debited from my account.,False
+CMP2239,Bank is not accepting digital Aadhaar for KYC. Physical Aadhaar was lost and reprint takes time.,False
+CMP1025,I have been calling the customer care number for the past 2 hours but the call keeps getting disconnected after long hold times. Extremely poor service.,False
+CMP2296,Mobile app does not support the latest Android version. I cannot use banking on my new phone. Kindly look into this urgently.,False
+CMP2387,I am writing to complain about the following issue. FD amount was not renewed on maturity date and instead credited to savings causing loss of interest.,False
+CMP2052,Debit card tokenization is not working on e-commerce websites. I cannot make any online purchases.,False
+CMP1062,KYC update done online was rejected without any reason or communication from the bank. Need clarity on what was wrong.,False
+CMP1088,Mobile banking app is extremely slow and takes more than 2 minutes to load each screen. This is unusable.,False
+CMP2282,Prepayment of loan not being accepted online. Being forced to visit branch which is far. Kindly look into this urgently.,False
+CMP2384,I am writing to complain about the following issue. FD amount was not renewed on maturity date and instead credited to savings causing loss of interest.,False
+CMP1120,Partial withdrawal from FD account is not allowed on the app but the terms say partial withdrawal is permitted.,False
+CMP2200,Net banking is not working on my new laptop. It works on mobile but not on the computer.,False
+CMP2127,Toll free number does not connect to any agent after 30 minutes of waiting. This is ridiculous.,False
+CMP2134,Toll free number does not connect to any agent after 30 minutes of waiting. This is ridiculous. Kindly look into this urgently.,False
+CMP2060,Credit card minimum due amount is calculated incorrectly on my latest statement. I am being overcharged.,False
+CMP1064,Bank is asking for KYC documents again even though I completed full KYC less than a year ago. This is harassment.,False
+CMP1043,International wire transfer initiated 7 days ago is still in pending status. The receiver has not received the funds.,False
+CMP2246,Bank is not accepting digital Aadhaar for KYC. Physical Aadhaar was lost and reprint takes time. Kindly look into this urgently.,False
+CMP2181,Net banking shows transfer successful but beneficiary bank says no credit received.,False
+CMP1028,My complaint filed 2 weeks ago has not been resolved and no one from the bank has contacted me with an update.,False
+CMP2254,Loan repayment schedule shared at disbursement does not match what is being deducted as EMI. Kindly look into this urgently.,False
+CMP2073,I am writing to complain about the following issue. My credit card was not delivered to my address even after 3 weeks of application approval.,False
+CMP1066,Address change request submitted with all documents is pending for 6 weeks. Important correspondence is going to old address.,False
+CMP2071,My credit card was not delivered to my address even after 3 weeks of application approval.,False
+CMP2355,Recurring deposit account not opening through net banking. Error at the final step. Kindly look into this urgently.,False
+CMP2098,Credit card upgrade to platinum was rejected without any reason. My income and repayment history are excellent. Kindly look into this urgently.,False
+CMP2155,I sent money to wrong account number by mistake and need immediate help for reversal.,False
+CMP2024,I have not received my debit card after opening account 3 weeks ago. Please dispatch it urgently.,False
+CMP9029,Insurance premium bundled with my loan was not disclosed at the time of application. I want it removed from my loan. Kindly resolve on priority basis.,True
+CMP2131,Toll free number does not connect to any agent after 30 minutes of waiting. This is ridiculous. Kindly look into this urgently.,False
+CMP9023,Card was reported stolen and new card was promised within 7 days but it has been 15 days and I still have not received the replacement card. Kindly resolve on priority basis.,True
+CMP9022,Interest payout for monthly interest FD not received for last 2 months. No explanation provided by the bank.,True
+CMP2182,Net banking shows transfer successful but beneficiary bank says no credit received. Kindly look into this urgently.,False
+CMP1112,FD interest certificate not received for tax filing purposes even after multiple requests to the branch.,False
+CMP2026,I am writing to complain about the following issue. I have not received my debit card after opening account 3 weeks ago. Please dispatch it urgently.,False
+CMP2175,Net banking shows transfer successful but beneficiary bank says no credit received.,False
+CMP2216,I am writing to complain about the following issue. My net banking account was suspended without any intimation. I have not violated any terms.,False
+CMP1083,Moratorium benefit applied during COVID was not properly adjusted in my loan account. I am being overcharged.,False
+CMP2354,Recurring deposit account not opening through net banking. Error at the final step.,False
+CMP2289,I am writing to complain about the following issue. Prepayment of loan not being accepted online. Being forced to visit branch which is far.,False
+CMP2233,I am writing to complain about the following issue. My mobile number update request is pending for 1 month. I cannot receive OTPs on old number.,False
+CMP1040,Added a new beneficiary 3 days ago but the beneficiary is still not activated. I need to make an urgent payment.,False
+CMP2301,Mobile app does not support the latest Android version. I cannot use banking on my new phone.,False
+CMP2082,I am writing to complain about the following issue. My credit card was not delivered to my address even after 3 weeks of application approval.,False
+CMP1001,My debit card was swallowed by the ATM machine at the Andheri branch and I have not received it back even after 5 days. This is causing me great inconvenience as I cannot access my funds.,False
+CMP9011,Senior citizen account benefits not applied to my account even though I submitted age proof at the time of opening. I am a senior citizen and request priority service.,True
+CMP2146,I am writing to complain about the following issue. Transfer to my own account in another bank is taking more than 24 hours to reflect.,False
+CMP2096,I am writing to complain about the following issue. Credit card upgrade to platinum was rejected without any reason. My income and repayment history are excellent.,False
+CMP2326,Mobile banking PIN gets reset automatically every few days forcing me to set it again.,False
+CMP2043,Debit card tokenization is not working on e-commerce websites. I cannot make any online purchases.,False
+CMP2130,Toll free number does not connect to any agent after 30 minutes of waiting. This is ridiculous.,False
+CMP2196,I cannot view my account mini statement on net banking. The page gives a blank screen. Kindly look into this urgently.,False
+CMP2237,My mobile number update request is pending for 1 month. I cannot receive OTPs on old number.,False
+CMP2300,I am writing to complain about the following issue. Mobile app does not support the latest Android version. I cannot use banking on my new phone.,False
+CMP2062,I am writing to complain about the following issue. Credit card minimum due amount is calculated incorrectly on my latest statement. I am being overcharged.,False
+CMP2314,I am writing to complain about the following issue. Cannot download my account statement from the mobile app. Option is greyed out.,False
+CMP2065,I am writing to complain about the following issue. Credit card minimum due amount is calculated incorrectly on my latest statement. I am being overcharged.,False
+CMP2075,My credit card was not delivered to my address even after 3 weeks of application approval. Kindly look into this urgently.,False
+CMP2048,I am writing to complain about the following issue. Debit card tokenization is not working on e-commerce websites. I cannot make any online purchases.,False
+CMP9014,This is regarding my previous complaint. Bank staff at the branch was unable to help with a basic account inquiry and kept sending me to different counters.,True
+CMP2229,My mobile number update request is pending for 1 month. I cannot receive OTPs on old number. Kindly look into this urgently.,False
+CMP9006,Savings account opening at the branch took 3 hours due to staff being unprepared and asking for documents multiple times.,True
+CMP1007,International transaction on my debit card was blocked even though I had informed the bank beforehand during my travel to Dubai.,False
+CMP2030,ATM dispensed less cash than the amount requested but full amount was debited from my account. Kindly look into this urgently.,False
+CMP1013,I have been charged an annual fee of Rs 2000 on my credit card even though I was promised a lifetime free card at the time of issuance.,False
+CMP1069,Video KYC appointment was scheduled but the bank representative did not join the call at the appointed time.,False
+CMP1045,Transfer charges applied are higher than the standard charges listed on the bank website. Please clarify and refund the difference.,False
+CMP1011,Cash deposited at CDM machine was not credited to my account. Transaction reference number is available with me.,False
+CMP1002,ATM card was blocked without any prior intimation. I was unable to withdraw cash during an emergency situation. Please resolve this immediately.,False
+CMP2079,I am writing to complain about the following issue. My credit card was not delivered to my address even after 3 weeks of application approval.,False
+CMP2022,I have not received my debit card after opening account 3 weeks ago. Please dispatch it urgently. Kindly look into this urgently.,False
+CMP2302,Mobile app does not support the latest Android version. I cannot use banking on my new phone. Kindly look into this urgently.,False
+CMP2194,I am writing to complain about the following issue. I cannot view my account mini statement on net banking. The page gives a blank screen.,False
+CMP1019,Interest charges on credit card are incorrect. The rate applied is higher than what was communicated in the agreement.,False
+CMP2176,Net banking shows transfer successful but beneficiary bank says no credit received. Kindly look into this urgently.,False
+CMP1095,Mobile app session expires too quickly during transactions. By the time I enter OTP the session is already expired.,False
+CMP2358,Recurring deposit account not opening through net banking. Error at the final step. Kindly look into this urgently.,False
+CMP2028,I have not received my debit card after opening account 3 weeks ago. Please dispatch it urgently. Kindly look into this urgently.,False
+CMP2319,Cannot download my account statement from the mobile app. Option is greyed out. Kindly look into this urgently.,False
+CMP1096,New mobile banking app design is very confusing. Cannot find basic features like mini statement and fund transfer easily.,False
+CMP2285,Prepayment of loan not being accepted online. Being forced to visit branch which is far. Kindly look into this urgently.,False
+CMP2270,My gold loan is due for renewal but the branch is not responding to my renewal request.,False
+CMP2105,I visited the branch 4 times for a simple signature update but the work is still not done.,False
+CMP1054,Two factor authentication is not working on net banking. OTP is not being received on registered mobile number.,False
+CMP2140,Toll free number does not connect to any agent after 30 minutes of waiting. This is ridiculous. Kindly look into this urgently.,False
+CMP2251,Bank is not accepting digital Aadhaar for KYC. Physical Aadhaar was lost and reprint takes time.,False
+CMP1056,Cheque book request submitted through net banking 3 weeks ago has not been processed or dispatched yet.,False
+CMP2164,I sent money to wrong account number by mistake and need immediate help for reversal.,False
+CMP2362,I am writing to complain about the following issue. Recurring deposit account not opening through net banking. Error at the final step.,False
+CMP2291,Prepayment of loan not being accepted online. Being forced to visit branch which is far. Kindly look into this urgently.,False
+CMP1071,Signature mismatch issue is blocking all my transactions but the signature I am using is the same as on file.,False
+CMP1048,Daily fund transfer limit is too low for my business requirements. Requested increase 2 weeks ago with no response.,False
+CMP2385,FD amount was not renewed on maturity date and instead credited to savings causing loss of interest.,False
+CMP2051,I am writing to complain about the following issue. Debit card tokenization is not working on e-commerce websites. I cannot make any online purchases.,False
+CMP2144,Transfer to my own account in another bank is taking more than 24 hours to reflect.,False
+CMP2210,Net banking is not working on my new laptop. It works on mobile but not on the computer. Kindly look into this urgently.,False
+CMP2286,I am writing to complain about the following issue. Prepayment of loan not being accepted online. Being forced to visit branch which is far.,False
+CMP2224,My net banking account was suspended without any intimation. I have not violated any terms. Kindly look into this urgently.,False
+CMP2278,I am writing to complain about the following issue. My gold loan is due for renewal but the branch is not responding to my renewal request.,False
+CMP1016,Reward points on my credit card have not been credited for the last 3 months despite making eligible purchases.,False
+CMP2001,My debit card transaction was declined at the petrol pump even though I have sufficient balance. This is very inconvenient.,False
+CMP2364,Recurring deposit account not opening through net banking. Error at the final step. Kindly look into this urgently.,False
+CMP2226,My mobile number update request is pending for 1 month. I cannot receive OTPs on old number. Kindly look into this urgently.,False
+CMP2008,My debit card transaction was declined at the petrol pump even though I have sufficient balance. This is very inconvenient. Kindly look into this urgently.,False
+CMP2044,Debit card tokenization is not working on e-commerce websites. I cannot make any online purchases. Kindly look into this urgently.,False
+CMP2269,I am writing to complain about the following issue. My gold loan is due for renewal but the branch is not responding to my renewal request.,False
+CMP2152,I am writing to complain about the following issue. Transfer to my own account in another bank is taking more than 24 hours to reflect.,False
+CMP2191,I am writing to complain about the following issue. I cannot view my account mini statement on net banking. The page gives a blank screen.,False
+CMP1075,Personal loan application submitted 3 weeks ago is still under review. No update or timeline provided by the bank.,False
+CMP2033,ATM dispensed less cash than the amount requested but full amount was debited from my account. Kindly look into this urgently.,False
+CMP2327,Mobile banking PIN gets reset automatically every few days forcing me to set it again. Kindly look into this urgently.,False
+CMP2206,Net banking is not working on my new laptop. It works on mobile but not on the computer.,False
+CMP2138,I am writing to complain about the following issue. Toll free number does not connect to any agent after 30 minutes of waiting. This is ridiculous.,False
+CMP2390,I am writing to complain about the following issue. FD amount was not renewed on maturity date and instead credited to savings causing loss of interest.,False
+CMP2297,I am writing to complain about the following issue. Mobile app does not support the latest Android version. I cannot use banking on my new phone.,False
+CMP2317,I am writing to complain about the following issue. Cannot download my account statement from the mobile app. Option is greyed out.,False
+CMP2183,I cannot view my account mini statement on net banking. The page gives a blank screen.,False
+CMP2100,I visited the branch 4 times for a simple signature update but the work is still not done. Kindly look into this urgently.,False
+CMP2178,Net banking shows transfer successful but beneficiary bank says no credit received.,False
+CMP2074,My credit card was not delivered to my address even after 3 weeks of application approval.,False
+CMP2225,My mobile number update request is pending for 1 month. I cannot receive OTPs on old number.,False
+CMP1100,Video KYC for online account opening is not completing. Connection drops every time after the initial verification step.,False
+CMP1017,I received a credit card statement showing transactions that I did not make. This looks like fraudulent activity on my account.,False
+CMP2276,My gold loan is due for renewal but the branch is not responding to my renewal request.,False
+CMP2005,My debit card transaction was declined at the petrol pump even though I have sufficient balance. This is very inconvenient. Kindly look into this urgently.,False
+CMP2023,I am writing to complain about the following issue. I have not received my debit card after opening account 3 weeks ago. Please dispatch it urgently.,False
+CMP2378,I cannot find the option to break my FD prematurely in the net banking portal. Kindly look into this urgently.,False
+CMP2379,FD amount was not renewed on maturity date and instead credited to savings causing loss of interest.,False
+CMP2053,Debit card tokenization is not working on e-commerce websites. I cannot make any online purchases. Kindly look into this urgently.,False
+CMP2190,I cannot view my account mini statement on net banking. The page gives a blank screen. Kindly look into this urgently.,False
+CMP2271,My gold loan is due for renewal but the branch is not responding to my renewal request. Kindly look into this urgently.,False
+CMP2388,FD amount was not renewed on maturity date and instead credited to savings causing loss of interest.,False
+CMP1058,Standing instruction set through net banking was not executed on the due date resulting in late payment penalty.,False
+CMP2037,I am writing to complain about the following issue. ATM dispensed less cash than the amount requested but full amount was debited from my account.,False
+CMP2288,Prepayment of loan not being accepted online. Being forced to visit branch which is far. Kindly look into this urgently.,False
+CMP1073,My home loan EMI was debited twice in the same month. The extra deduction has caused financial difficulty. Please reverse immediately.,False
+CMP2247,I am writing to complain about the following issue. Bank is not accepting digital Aadhaar for KYC. Physical Aadhaar was lost and reprint takes time.,False
+CMP2305,Mobile app does not support the latest Android version. I cannot use banking on my new phone. Kindly look into this urgently.,False
+CMP2310,Cannot download my account statement from the mobile app. Option is greyed out. Kindly look into this urgently.,False
+CMP2151,Transfer to my own account in another bank is taking more than 24 hours to reflect. Kindly look into this urgently.,False
+CMP9005,Pre-approved loan offer shown in app disappeared when I tried to apply. Customer care has no explanation for this.,True
+CMP1072,E-KYC through Aadhaar OTP is failing with server error message for the past 2 weeks. Cannot update my KYC.,False
+CMP1034,Bank sent promotional messages at 2 AM which disturbed my sleep. Even after opting out messages are still coming.,False
+CMP2016,I have not received my debit card after opening account 3 weeks ago. Please dispatch it urgently. Kindly look into this urgently.,False
+CMP2261,I am writing to complain about the following issue. Loan repayment schedule shared at disbursement does not match what is being deducted as EMI.,False
+CMP2333,Mobile banking PIN gets reset automatically every few days forcing me to set it again. Kindly look into this urgently.,False
+CMP2367,I am writing to complain about the following issue. I cannot find the option to break my FD prematurely in the net banking portal.,False
+CMP2025,I have not received my debit card after opening account 3 weeks ago. Please dispatch it urgently. Kindly look into this urgently.,False
+CMP9015,Fund transfer confirmation email not received even after 24 hours. I am unable to confirm if transaction was successful.,True
+CMP2316,Cannot download my account statement from the mobile app. Option is greyed out. Kindly look into this urgently.,False
+CMP1086,UPI payment through the bank app is failing with payment gateway error. Other bank apps are working fine.,False
+CMP2165,I sent money to wrong account number by mistake and need immediate help for reversal. Kindly look into this urgently.,False
+CMP2020,I am writing to complain about the following issue. I have not received my debit card after opening account 3 weeks ago. Please dispatch it urgently.,False
+CMP1102,Joint account opening request requires both applicants to visit the branch. This is not practical as co-applicant is in another city.,False
+CMP2095,Credit card upgrade to platinum was rejected without any reason. My income and repayment history are excellent. Kindly look into this urgently.,False
+CMP2120,Email sent to customer support 3 weeks ago has not received any response whatsoever. Kindly look into this urgently.,False
+CMP1044,Scheduled transfer did not execute on the specified date. I had to manually transfer and missed the payment deadline.,False
+CMP2329,Mobile banking PIN gets reset automatically every few days forcing me to set it again.,False
+CMP2159,I sent money to wrong account number by mistake and need immediate help for reversal. Kindly look into this urgently.,False
+CMP2343,Aadhaar seeding with bank account not completed even after submitting request at branch.,False
+CMP2331,I am writing to complain about the following issue. Mobile banking PIN gets reset automatically every few days forcing me to set it again.,False
+CMP9024,This is regarding my previous complaint. International transaction on my debit card was blocked even though I had informed the bank beforehand during my travel to Dubai.,True
+CMP2369,I cannot find the option to break my FD prematurely in the net banking portal. Kindly look into this urgently.,False
+CMP2382,FD amount was not renewed on maturity date and instead credited to savings causing loss of interest.,False
+CMP2376,I am writing to complain about the following issue. I cannot find the option to break my FD prematurely in the net banking portal.,False
+CMP2009,I am writing to complain about the following issue. My debit card transaction was declined at the petrol pump even though I have sufficient balance. This is very inconvenient.,False
+CMP2128,Toll free number does not connect to any agent after 30 minutes of waiting. This is ridiculous. Kindly look into this urgently.,False
+CMP2103,I visited the branch 4 times for a simple signature update but the work is still not done. Kindly look into this urgently.,False
+CMP2349,Aadhaar seeding with bank account not completed even after submitting request at branch.,False
+CMP2279,My gold loan is due for renewal but the branch is not responding to my renewal request.,False
+CMP1037,I transferred Rs 50000 via NEFT to a beneficiary account but the money has not been credited even after 48 hours. Transaction shows successful on my end.,False
+CMP2306,I am writing to complain about the following issue. Mobile app does not support the latest Android version. I cannot use banking on my new phone.,False
+CMP1027,Customer care executive gave wrong information about FD interest rates which led to financial loss. This is unacceptable.,False
+CMP2139,Toll free number does not connect to any agent after 30 minutes of waiting. This is ridiculous.,False
+CMP2141,Transfer to my own account in another bank is taking more than 24 hours to reflect.,False
+CMP2031,I am writing to complain about the following issue. ATM dispensed less cash than the amount requested but full amount was debited from my account.,False
+CMP2209,Net banking is not working on my new laptop. It works on mobile but not on the computer.,False
+CMP2211,My net banking account was suspended without any intimation. I have not violated any terms.,False
+CMP1116,FD nomination details submitted at the time of opening are not reflecting in the FD account. Please update urgently.,False
+CMP2381,I am writing to complain about the following issue. FD amount was not renewed on maturity date and instead credited to savings causing loss of interest.,False
+CMP2346,Aadhaar seeding with bank account not completed even after submitting request at branch.,False
+CMP2208,I am writing to complain about the following issue. Net banking is not working on my new laptop. It works on mobile but not on the computer.,False
+CMP2332,Mobile banking PIN gets reset automatically every few days forcing me to set it again.,False
+CMP2263,Loan repayment schedule shared at disbursement does not match what is being deducted as EMI. Kindly look into this urgently.,False
+CMP2013,My debit card transaction was declined at the petrol pump even though I have sufficient balance. This is very inconvenient.,False
+CMP2154,Transfer to my own account in another bank is taking more than 24 hours to reflect. Kindly look into this urgently.,False
+CMP1061,My account has been frozen due to pending KYC even though I submitted all documents at the branch 3 weeks ago.,False
+CMP1110,Auto renewal of FD was done at a lower interest rate than what was current on the date of renewal. I want it corrected.,False
+CMP1033,Multiple follow ups done but no response from the bank about my loan application status. Extremely unprofessional.,False
+CMP2283,I am writing to complain about the following issue. Prepayment of loan not being accepted online. Being forced to visit branch which is far.,False
+CMP2372,I cannot find the option to break my FD prematurely in the net banking portal. Kindly look into this urgently.,False
+CMP2032,ATM dispensed less cash than the amount requested but full amount was debited from my account.,False
+CMP2049,Debit card tokenization is not working on e-commerce websites. I cannot make any online purchases.,False
+CMP2259,Loan repayment schedule shared at disbursement does not match what is being deducted as EMI.,False
+CMP2284,Prepayment of loan not being accepted online. Being forced to visit branch which is far.,False
+CMP2145,Transfer to my own account in another bank is taking more than 24 hours to reflect. Kindly look into this urgently.,False
+CMP2356,I am writing to complain about the following issue. Recurring deposit account not opening through net banking. Error at the final step.,False
+CMP2368,I cannot find the option to break my FD prematurely in the net banking portal.,False
+CMP1026,Branch staff was very rude and unhelpful when I visited for a simple account inquiry. The behavior was completely unprofessional.,False
+CMP2228,My mobile number update request is pending for 1 month. I cannot receive OTPs on old number.,False
+CMP2320,I am writing to complain about the following issue. Cannot download my account statement from the mobile app. Option is greyed out.,False
+CMP2256,Loan repayment schedule shared at disbursement does not match what is being deducted as EMI.,False
+CMP2268,My gold loan is due for renewal but the branch is not responding to my renewal request. Kindly look into this urgently.,False
+CMP2124,I am writing to complain about the following issue. Email sent to customer support 3 weeks ago has not received any response whatsoever.,False
+CMP1021,Cash advance fee charged on a regular POS transaction. I did not do any cash advance. Please investigate and refund.,False
+CMP1097,Account opening application submitted online 2 weeks ago but account is still not activated. No communication received.,False
+CMP2187,I cannot view my account mini statement on net banking. The page gives a blank screen. Kindly look into this urgently.,False
+CMP9028,Video KYC for online account opening is not completing. Connection drops every time after the initial verification step. I am a senior citizen and request priority service.,True
+CMP1030,Bank staff at the branch was unable to help with a basic account inquiry and kept sending me to different counters.,False
+CMP1060,Net banking shows transaction history only for last 30 days. I need older statements but download option is not working.,False
+CMP1084,Education loan disbursement is delayed and college fee payment deadline has passed. I am facing penalty from college.,False
+CMP2150,Transfer to my own account in another bank is taking more than 24 hours to reflect.,False
+CMP2374,I cannot find the option to break my FD prematurely in the net banking portal.,False
+CMP2034,I am writing to complain about the following issue. ATM dispensed less cash than the amount requested but full amount was debited from my account.,False
+CMP2122,Email sent to customer support 3 weeks ago has not received any response whatsoever.,False
+CMP2092,Credit card upgrade to platinum was rejected without any reason. My income and repayment history are excellent. Kindly look into this urgently.,False
+CMP2265,Loan repayment schedule shared at disbursement does not match what is being deducted as EMI.,False
+CMP1038,RTGS transfer of Rs 2 lakhs failed midway and money was debited from my account but not credited to beneficiary. Please investigate urgently.,False
+CMP1078,NOC certificate for my closed car loan has not been issued even after 2 months of loan closure. I need it urgently.,False
+CMP2249,Bank is not accepting digital Aadhaar for KYC. Physical Aadhaar was lost and reprint takes time. Kindly look into this urgently.,False
+CMP2266,Loan repayment schedule shared at disbursement does not match what is being deducted as EMI. Kindly look into this urgently.,False
+CMP2309,Cannot download my account statement from the mobile app. Option is greyed out.,False
+CMP1055,Net banking is not accessible from my office network. IT team confirmed there is no firewall issue on our side.,False
+CMP1082,Insurance premium bundled with my loan was not disclosed at the time of application. I want it removed from my loan.,False
+CMP2156,I sent money to wrong account number by mistake and need immediate help for reversal. Kindly look into this urgently.,False
+CMP2014,My debit card transaction was declined at the petrol pump even though I have sufficient balance. This is very inconvenient. Kindly look into this urgently.,False
+CMP1051,Internet banking session keeps timing out every 2 minutes making it impossible to complete any transaction.,False
+CMP1005,ATM card PIN change option is not working at the branch ATM. I have visited twice but the machine shows error every time.,False
+CMP9007,My account was marked dormant even though I had transactions in the last 6 months. Activation is taking too long.,True
+CMP2248,Bank is not accepting digital Aadhaar for KYC. Physical Aadhaar was lost and reprint takes time.,False
+CMP2180,I am writing to complain about the following issue. Net banking shows transfer successful but beneficiary bank says no credit received.,False
+CMP2203,Net banking is not working on my new laptop. It works on mobile but not on the computer.,False
+CMP2347,Aadhaar seeding with bank account not completed even after submitting request at branch. Kindly look into this urgently.,False
+CMP2342,I am writing to complain about the following issue. Aadhaar seeding with bank account not completed even after submitting request at branch.,False
+CMP2218,My net banking account was suspended without any intimation. I have not violated any terms. Kindly look into this urgently.,False
+CMP2242,Bank is not accepting digital Aadhaar for KYC. Physical Aadhaar was lost and reprint takes time.,False
+CMP1077,Loan EMI amount changed without any prior notice. I was not informed about any change in interest rate or tenure.,False
+CMP2106,I visited the branch 4 times for a simple signature update but the work is still not done. Kindly look into this urgently.,False
+CMP2055,Debit card tokenization is not working on e-commerce websites. I cannot make any online purchases.,False
+CMP2280,My gold loan is due for renewal but the branch is not responding to my renewal request. Kindly look into this urgently.,False
+CMP9009,I transferred Rs 50000 via NEFT to a beneficiary account but the money has not been credited even after 48 hours. Transaction shows successful on my end. Kindly resolve on priority basis.,True
+CMP2243,Bank is not accepting digital Aadhaar for KYC. Physical Aadhaar was lost and reprint takes time. Kindly look into this urgently.,False
+CMP2386,FD amount was not renewed on maturity date and instead credited to savings causing loss of interest. Kindly look into this urgently.,False
+CMP1041,Transaction limit on net banking for NEFT was reduced without any intimation. I could not complete an important payment.,False
+CMP1046,Bulk payment through net banking failed halfway and some accounts got paid while others did not. Very messy situation.,False
+CMP2341,Aadhaar seeding with bank account not completed even after submitting request at branch. Kindly look into this urgently.,False
+CMP2272,I am writing to complain about the following issue. My gold loan is due for renewal but the branch is not responding to my renewal request.,False
+CMP2361,Recurring deposit account not opening through net banking. Error at the final step. Kindly look into this urgently.,False
+CMP2153,Transfer to my own account in another bank is taking more than 24 hours to reflect.,False
+CMP2102,I visited the branch 4 times for a simple signature update but the work is still not done.,False
+CMP9030,Aadhaar based KYC verification is failing repeatedly on the bank app even though my Aadhaar details are correct.,True
+CMP2003,I am writing to complain about the following issue. My debit card transaction was declined at the petrol pump even though I have sufficient balance. This is very inconvenient.,False
+CMP2307,Mobile app does not support the latest Android version. I cannot use banking on my new phone.,False
+CMP2137,Toll free number does not connect to any agent after 30 minutes of waiting. This is ridiculous. Kindly look into this urgently.,False
+CMP2132,I am writing to complain about the following issue. Toll free number does not connect to any agent after 30 minutes of waiting. This is ridiculous.,False
+CMP2042,ATM dispensed less cash than the amount requested but full amount was debited from my account. Kindly look into this urgently.,False
+CMP2070,Credit card minimum due amount is calculated incorrectly on my latest statement. I am being overcharged. Kindly look into this urgently.,False
+CMP2213,I am writing to complain about the following issue. My net banking account was suspended without any intimation. I have not violated any terms.,False
+CMP2027,I have not received my debit card after opening account 3 weeks ago. Please dispatch it urgently.,False
+CMP2287,Prepayment of loan not being accepted online. Being forced to visit branch which is far.,False

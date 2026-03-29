@@ -1,0 +1,69 @@
+# ─── ENVIRONMENT — NEVER COMMIT ───────────
+.env
+.env.local
+.env.production
+.env.staging
+*.env
+
+# ─── PYTHON ───────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.so
+.pytest_cache/
+.mypy_cache/
+
+# ─── ML MODELS ────────────────────────────
+nlp/models/*.pkl
+nlp/models/*.npy
+nlp/models/*.bin
+
+# ─── VIRTUAL ENVIRONMENTS ─────────────────
+venv/
+env/
+.venv/
+ENV/
+
+# ─── NODE / FRONTEND ──────────────────────
+node_modules/
+dist/
+.next/
+out/
+.nuxt/
+coverage/
+*.tsbuildinfo
+vite.svg
+
+# ─── VS CODE ──────────────────────────────
+.vscode/
+*.code-workspace
+
+# ─── OS FILES ─────────────────────────────
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+
+# ─── LOGS ─────────────────────────────────
+*.log
+logs/
+npm-debug.log*
+
+# ─── JUPYTER ──────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ─── DATABASE (optional) ──────────────────
+*.db
+*.sqlite3
+
+# ─── MISC ─────────────────────────────────
+*.bak
+*.tmp
+*.swp
+*.pkl

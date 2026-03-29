@@ -1,0 +1,89 @@
+[
+  {
+    "draft_response": "Dear customer, I sincerely apologize for the inconvenience and distress caused by the delay in your NEFT transaction of Rs 50,000 not being credited even after 48 hours. We understand the urgency of this matter, and I assure you we are taking immediate steps to investigate this thoroughly. We will initiate a comprehensive trace of the funds with the beneficiary bank and aim to provide you with a resolution or a significant update within 24-48 working hours.",
+    "root_cause": "The most common root cause for such delays, especially when successful from the sender's end, is often processing delays at the beneficiary bank or inter-bank settlement issues, despite NEFT being a near real-time system. Occasionally, incorrect beneficiary details that pass initial checks but fail at the receiving bank's processing can also cause delays.",
+    "action_items": [
+      "Obtain full NEFT transaction details (UTR, date, amount, beneficiary account number and IFSC) from the customer.",
+      "Initiate an immediate NEFT trace (R31) request with the beneficiary bank to ascertain the status of funds.",
+      "Liaise with the bank's Payment Operations team to expedite the investigation and follow up with the beneficiary bank."
+    ],
+    "escalate_to": "Payment Operations / NEFT & RTGS Desk",
+    "resolution_sla": "24-48 working hours for resolution, with an initial update within 12 working hours.",
+    "priority_score": 9,
+    "customer_tone_tip": "Be highly empathetic and reassuring. Acknowledge the customer's urgency and frustration directly, emphasizing immediate action.",
+    "complaint_text": "I transferred Rs 50000 via NEFT to a beneficiary account but the money has not been credited even after 48 hours. Transaction shows successful on my end. Please resolve urgently.",
+    "predicted_category": "Fund Transfer / NEFT / RTGS",
+    "predicted_sentiment": "Urgent",
+    "predicted_severity": "Critical"
+  },
+  {
+    "draft_response": "Dear Customer, I sincerely apologize for the inconvenience caused by the double charge of Rs 3500 on your credit card for the same transaction. I understand how frustrating this situation must be, and please be assured that we are taking immediate action to investigate this discrepancy. We will initiate the process to reverse the duplicate charge and aim to have this resolved for you within 2-3 working days.",
+    "root_cause": "The likely root cause is a merchant terminal error or a temporary network glitch during the transaction, which led to the same payment being processed twice.",
+    "action_items": [
+      "Initiate a chargeback request for the duplicate transaction of Rs 3500.",
+      "Liaise with the merchant's acquiring bank to verify and expedite the reversal.",
+      "Monitor the customer's account for the successful reversal and provide timely updates."
+    ],
+    "escalate_to": "Card Operations & Disputes Team",
+    "resolution_sla": "2-3 working days",
+    "priority_score": 8,
+    "customer_tone_tip": "Maintain a calm and empathetic tone; explicitly acknowledge their frustration and assure them of immediate action.",
+    "complaint_text": "My credit card was charged twice for the same transaction at a restaurant. The duplicate charge of Rs 3500 needs to be reversed immediately.",
+    "predicted_category": "Credit Card",
+    "predicted_sentiment": "Frustrated",
+    "predicted_severity": "High"
+  },
+  {
+    "draft_response": "Dear Customer, We sincerely apologize for the significant inconvenience and frustration you are experiencing with our mobile banking app crashing on your Android device after the latest update. We understand that being unable to access your account is a critical issue, and we take this matter very seriously. Our technical team has been immediately alerted and is actively investigating this critical bug to identify and implement a fix as quickly as possible. We aim to provide an update or a resolution within the next 24-48 hours.",
+    "root_cause": "The likely root cause is a software regression or compatibility issue introduced in the latest app update for Android devices, affecting stability and functionality. This often occurs due to insufficient testing across diverse Android versions and device manufacturers before deployment.",
+    "action_items": [
+      "Immediately escalate the complaint to the Mobile Banking Development Team for urgent investigation.",
+      "Verify if a widespread issue has been reported for the latest Android app update.",
+      "Provide the customer with alternative banking channels (Internet Banking, UBI Branch Locator, Call Center) for urgent transactions."
+    ],
+    "escalate_to": "Mobile Banking Development Team / IT Operations",
+    "resolution_sla": "24-48 hours",
+    "priority_score": 8,
+    "customer_tone_tip": "Acknowledge frustration, be deeply apologetic, and assure immediate action and follow-up. Provide clear alternative solutions.",
+    "complaint_text": "Mobile banking app keeps crashing after the latest update on my Android phone. I cannot access my account at all.",
+    "predicted_category": "Mobile Banking App",
+    "predicted_sentiment": "Angry",
+    "predicted_severity": "High"
+  },
+  {
+    "draft_response": "Dear Customer, I sincerely apologize for the significant distress and financial difficulty caused by the double debit of your home loan EMI this month. This is certainly not the standard of service we aim for at Union Bank of India. We are immediately escalating this matter to our Loan Operations team to investigate the discrepancy and initiate the reversal of the extra deduction. You can expect a resolution and confirmation of the reversal within 24-48 hours.",
+    "root_cause": "The likely root cause is a processing error during the EMI debit cycle, potentially involving a duplicate transaction initiation or an issue with batch processing, leading to an unintended second deduction from the customer's account.",
+    "action_items": [
+      "Verify the customer's account statement to confirm the double EMI debit.",
+      "Raise a high-priority service request with the Loan Operations Department for immediate investigation and reversal.",
+      "Monitor the service request and follow up with the Loan Operations team to expedite the reversal process.",
+      "Communicate the resolution and provide a transaction reference number to the customer once the reversal is complete."
+    ],
+    "escalate_to": "Loan Operations Department / Reconciliation Team",
+    "resolution_sla": "24-48 hours for investigation and initiation of reversal",
+    "priority_score": 8,
+    "customer_tone_tip": "Be highly empathetic and apologetic. Reassure the customer of immediate action and provide clear, concise updates to alleviate their financial stress and urgency.",
+    "complaint_text": "My home loan EMI was debited twice this month causing financial difficulty. Please reverse the extra deduction.",
+    "predicted_category": "Loan Services",
+    "predicted_sentiment": "Urgent",
+    "predicted_severity": "Critical"
+  },
+  {
+    "draft_response": "Dear Customer, I am truly sorry to hear about the distress and inconvenience caused by your ATM card being blocked, especially during a medical emergency. This is certainly not the experience we want for our valued customers. Please be assured that we are taking this matter very seriously and initiating an immediate investigation into why your card was blocked without notice. We will work swiftly to resolve this for you and ensure you have access to your funds as quickly as possible.",
+    "root_cause": "The most likely root cause for an ATM card being blocked without prior notice, especially under urgent circumstances, is a security-related fraud detection system triggering a block, or potentially a system error within the card management or core banking system. Such blocks are usually intended to protect the customer but should ideally be accompanied by immediate notification.",
+    "action_items": [
+      "Immediately raise an investigation request with the ATM/Debit Card Operations team to ascertain the exact reason for the card block.",
+      "Attempt to temporarily unblock the card if the reason is not critical fraud (e.g., system error) or assist with an immediate alternative cash withdrawal method if possible.",
+      "Arrange for a priority card reissue and delivery if the current card cannot be reactivated.",
+      "Follow up with the customer within 4 hours with an initial update on the investigation findings."
+    ],
+    "escalate_to": "ATM / Debit Card Operations Team; Security & Fraud Monitoring Department (if fraud suspected)",
+    "resolution_sla": "24 hours for initial resolution/unblock, 3-5 working days for card reissue if necessary",
+    "priority_score": 9,
+    "customer_tone_tip": "Acknowledge their distress and frustration immediately. Be empathetic, apologetic, and reassure them that their issue is being handled with utmost urgency.",
+    "complaint_text": "ATM card was blocked without any prior notice. I could not withdraw cash during a medical emergency.",
+    "predicted_category": "ATM / Debit Card",
+    "predicted_sentiment": "Urgent",
+    "predicted_severity": "Critical"
+  }
+]
