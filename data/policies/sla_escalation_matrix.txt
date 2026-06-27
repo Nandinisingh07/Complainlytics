@@ -1,0 +1,24 @@
+Service Level Agreement (SLA) & Escalation Matrix
+
+Severity Classification and Timelines:
+- Critical (e.g., Active fraud, system outage): 4 hours
+- High (e.g., Blocked card, urgent medical loan): 24 hours
+- Medium (e.g., General complaints, fee reversals): 72 hours
+- Low (e.g., Information request, branch feedback): 168 hours (7 days)
+
+Escalation Mapping:
+- ATM / Debit Card -> ATM & Card Operations Team
+- Credit Card -> Credit Card Disputes Team
+- Fund Transfer / NEFT / RTGS -> NEFT/RTGS Operations Team
+- Internet Banking -> Digital Banking Support
+- Mobile Banking App -> Mobile Banking Dev Team
+- KYC / Documentation -> KYC Compliance Team
+- Loan Services -> Loan Operations Department
+- Account Opening -> Account Services Team
+- Fixed Deposit -> Deposits & Treasury Team
+- Customer Service -> Branch Service Quality Team
+
+Escalation Protocol:
+1. If SLA is breached, escalate immediately to the Level 1 manager of the mapped department.
+2. If SLA breach exceeds 48 hours, escalate to the Zonal Head.
+3. If SLA breach exceeds 5 days, escalate to Principal Nodal Officer and trigger a regulatory compliance alert.

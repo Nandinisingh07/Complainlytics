@@ -1,0 +1,7 @@
+Standard Operating Procedure (SOP) for Fraud Handling
+
+1. Immediate Card Blocking: Upon receiving any intimation of a fraudulent transaction on a Debit or Credit card, the system/agent must immediately hotlist/block the card to prevent further misuse.
+2. Account Freeze: If large unauthorized NEFT/RTGS transfers are detected or reported, a temporary debit freeze must be applied to the account.
+3. Chargeback Initiation: For credit card disputes, a chargeback must be initiated via the Visa/Mastercard/RuPay network within 48 hours of receiving the signed dispute form.
+4. Cyber Crime Reporting: Customers must be advised to register a complaint on the National Cyber Crime Reporting Portal (cybercrime.gov.in) for amounts exceeding Rs. 50,000.
+5. Internal Investigation: Fraud cases must be assigned to the Fraud Risk Management (FRM) team. The investigation must conclude within 90 days. During this period, provisional credit may be granted to the customer depending on the RBI liability guidelines.

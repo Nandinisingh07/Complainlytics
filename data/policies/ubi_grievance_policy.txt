@@ -1,0 +1,11 @@
+Union Bank of India - Grievance Redressal Policy
+
+1. Branch Level Resolution: The Branch Manager is the first point of contact. Customers can register complaints via the complaint book, portal, or call center. Branch-level complaints should be resolved within 3 to 7 working days depending on severity.
+
+2. Escalation Level 1 (Regional/Zonal Node): If the branch fails to resolve the issue within 7 days, the complaint is escalated to the Zonal Grievance Officer. They have 7 to 14 days to resolve the matter.
+
+3. Escalation Level 2 (Principal Nodal Officer): If the complaint remains unresolved after 14 days, it is escalated to the Principal Nodal Officer at the Corporate Office. Maximum time at this stage is 15 days.
+
+4. Internal Ombudsman: If the bank decides to reject a complaint partially or fully, the decision must be reviewed by the Internal Ombudsman before informing the customer.
+
+5. AI Auto-Resolution: For low-risk repetitive issues such as failed ATM transactions, pending UPI transfers, and routine account balance inquiries, automated systems are authorized to resolve the complaint instantly upon verification with the Core Banking System (CBS). Auto-resolved tickets must contain an audit trail.

@@ -1,0 +1,9 @@
+Reserve Bank of India (RBI) Guidelines on Customer Service and Grievance Redressal
+
+1. Failed ATM Transactions: Banks must resolve customer complaints regarding failed ATM transactions (where the customer's account is debited but cash is not dispensed) within 5 calendar days from the date of receipt of the complaint. Failure to re-credit within this timeline will incur a penalty of Rs. 100 per day of delay payable to the customer.
+
+2. Pending UPI Transactions: If a Unified Payments Interface (UPI) transaction is pending or failed but the account is debited, the auto-reversal must be completed by the bank within T+1 day (Transaction date + 1 day). If not resolved, a penalty of Rs. 100 per day applies.
+
+3. Unauthorized Electronic Transactions: Customers must report unauthorized transactions within 3 working days to have zero liability. If reported between 4 to 7 working days, liability is limited to the transaction value or Rs. 10,000 (whichever is lower). Beyond 7 days, liability is determined by the bank's board-approved policy.
+
+4. General Complaints: All customer complaints must receive a formal acknowledgment within 3 days, and a final resolution or status update must be provided within 30 days of the complaint receipt.

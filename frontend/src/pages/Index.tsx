@@ -10,7 +10,8 @@ import { SLAPanel } from "@/components/dashboard/SLAPanel";
 import { ChannelIngestion } from "@/components/dashboard/ChannelIngestion";
 import { RegulatoryPanel } from "@/components/dashboard/RegulatoryPanel";
 import { Bell, User, Wifi } from "lucide-react";
-
+import { Bot } from "lucide-react";
+import { AIAssistantWidget } from "@/components/dashboard/AIAssistantWidget";
 const Index = () => {
   return (
     <SidebarProvider>
@@ -23,7 +24,7 @@ const Index = () => {
             <div className="flex items-center gap-3">
               <SidebarTrigger />
               <div>
-                <h1 className="text-lg font-bold text-primary">iDEA PS5 — Complaint Dashboard</h1>
+                <h1 className="text-lg font-bold text-primary">Complainlytics</h1>
                 <p className="text-xs text-muted-foreground">Union Bank of India · Intelligent Analytics</p>
               </div>
             </div>
@@ -49,7 +50,27 @@ const Index = () => {
             <section id="ingestion" className="animate-fade-in">
               <ChannelIngestion />
             </section>
-
+            {/* Agent Banners */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+              <div className="flex items-center gap-3 px-4 py-3 rounded-xl bg-purple-50 border border-purple-200 shadow-sm">
+                <div className="h-2 w-2 rounded-full bg-purple-600 animate-pulse shrink-0" />
+                <Bot className="h-4 w-4 text-purple-600 shrink-0" />
+                <div className="flex-1">
+                  <span className="text-sm font-semibold text-purple-800">AI Auto-Triage Agent</span>
+                  <span className="text-xs text-purple-600 ml-2 block sm:inline">Active · Ran on startup</span>
+                </div>
+                <span className="text-xs font-semibold text-purple-700 bg-purple-100 px-2 py-1 rounded-full whitespace-nowrap">Triage mode</span>
+              </div>
+              <div className="flex items-center gap-3 px-4 py-3 rounded-xl bg-blue-50 border border-blue-200 shadow-sm">
+                <div className="h-2 w-2 rounded-full bg-blue-600 animate-pulse shrink-0" />
+                <Bot className="h-4 w-4 text-blue-600 shrink-0" />
+                <div className="flex-1">
+                  <span className="text-sm font-semibold text-blue-800">Autonomous Resolution Agent</span>
+                  <span className="text-xs text-blue-600 ml-2 block sm:inline">Active · Scanning low-risk cases</span>
+                </div>
+                <span className="text-xs font-semibold text-blue-700 bg-blue-100 px-2 py-1 rounded-full whitespace-nowrap">Resolve mode</span>
+              </div>
+            </div>
             {/* Section: KPI Overview */}
             <section id="overview" className="animate-fade-in" style={{ animationDelay: "0.05s" }}>
               <div className="flex items-center justify-between mb-4">
@@ -128,6 +149,7 @@ const Index = () => {
 
           </main>
         </div>
+        <AIAssistantWidget />
       </div>
     </SidebarProvider>
   );

@@ -14,7 +14,13 @@ from sentence_transformers import SentenceTransformer
 from google import genai
 from google.genai import types
 from dotenv import load_dotenv
-
+import asyncio
+from datetime import datetime
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+from .rag_engine import rag_engine
+from .autonomous_agent import run_autonomous_resolution_agent
 # ─────────────────────────────────────────
 # CONFIG — loaded from .env file
 # ─────────────────────────────────────────
@@ -22,8 +28,10 @@ load_dotenv()
 
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 GEMINI_MODEL   = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
-MODEL_DIR      = os.getenv("MODEL_DIR", "nlp/models")
-DATA_PATH = os.path.join(os.path.dirname(__file__), "../data/complaints_classified.csv")
+
+BASE_DIR  = os.path.dirname(os.path.abspath(__file__))
+MODEL_DIR = os.getenv("MODEL_DIR", os.path.join(BASE_DIR, "..", "nlp", "models"))
+DATA_PATH = os.getenv("DATA_PATH", os.path.join(BASE_DIR, "..", "data", "complaints_classified.csv"))
 
 if not GEMINI_API_KEY:
     raise ValueError("❌ GEMINI_API_KEY not found. Add it to your .env file.")
@@ -73,9 +81,36 @@ df = pd.read_csv(DATA_PATH)
 df["created_date"] = pd.to_datetime(df["created_date"])
 
 with open(f"{MODEL_DIR}/tfidf_models.pkl", "rb") as f:
-    tfidf_models = pickle.load(f)
+    raw = pickle.load(f)
+
+# Handle both formats: dict of pipelines OR separate vectorizer files
+if isinstance(raw, dict):
+    tfidf_models = raw
+else:
+    # raw is just a TfidfVectorizer — load separate model files
+    vectorizer = raw
+    with open(f"{MODEL_DIR}/../category_model.pkl", "rb") as f:
+        cat_model = pickle.load(f)
+    with open(f"{MODEL_DIR}/../sentiment_model.pkl", "rb") as f:
+        sent_model = pickle.load(f)
+    with open(f"{MODEL_DIR}/../severity_model.pkl", "rb") as f:
+        sev_model = pickle.load(f)
+    tfidf_models = {
+        "category" : cat_model,
+        "sentiment": sent_model,
+        "severity" : sev_model
+    }
+
 with open(f"{MODEL_DIR}/label_encoders.pkl", "rb") as f:
     label_encoders = pickle.load(f)
+
+# Handle label_encoders being a dict or not
+if not isinstance(label_encoders, dict):
+    label_encoders = {
+        "category" : label_encoders,
+        "sentiment": label_encoders,
+        "severity" : label_encoders
+    }
 
 embeddings = np.load(f"{MODEL_DIR}/embeddings.npy").astype("float32")
 faiss.normalize_L2(embeddings)
@@ -98,9 +133,17 @@ print(f"✅ All models loaded. {len(df)} complaints in database.\n")
 def predict_complaint(text: str) -> dict:
     result = {}
     for name, mdl in tfidf_models.items():
-        encoded = mdl.predict([text])[0]
-        label   = label_encoders[name].inverse_transform([encoded])[0]
-        proba   = mdl.predict_proba([text])[0].max()
+        try:
+            encoded = mdl.predict([text])[0]
+            proba   = mdl.predict_proba([text])[0].max()
+            # decode label if encoder exists
+            if isinstance(label_encoders, dict) and name in label_encoders:
+                label = label_encoders[name].inverse_transform([encoded])[0]
+            else:
+                label = encoded
+        except Exception as e:
+            label = "Unknown"
+            proba = 0.0
         result[name]                 = label
         result[f"{name}_confidence"] = round(float(proba), 2)
     return result
@@ -159,7 +202,7 @@ def find_similar_complaints(text: str, top_k: int = 3, threshold: float = 0.75, 
     return results
 
 
-def find_all_duplicate_pairs(threshold: float = 0.82):
+def find_all_duplicate_pairs(threshold: float = 0.70):
     pairs = []
     seen_pairs = set()
     scores_all, indices_all = faiss_index.search(embeddings, 6)
@@ -196,7 +239,8 @@ def find_all_duplicate_pairs(threshold: float = 0.82):
 
 
 def call_gemini(prompt: str) -> dict:
-    time.sleep(13)
+    import time
+    time.sleep(1)
     response = gemini_client.models.generate_content(
         model=GEMINI_MODEL,
         contents=prompt,
@@ -299,32 +343,69 @@ def analyze_complaint(req: AnalyzeRequest):
 def draft_response(req: ComplaintRequest):
     predictions = predict_complaint(req.complaint_text)
     similar     = find_similar_complaints(req.complaint_text, top_k=2, threshold=0.75)
-    prompt = f"""
-You are a senior customer service officer at Union Bank of India.
-Customer name: {req.customer_name}
-Channel: {req.channel}
-COMPLAINT: {req.complaint_text}
-METADATA:
-- Category : {predictions['category']}
-- Sentiment: {predictions['sentiment']}
-- Severity : {predictions['severity']}
-Return a JSON object:
-{{
-  "draft_response": "Professional empathetic 3-4 sentence response. Start with Dear {req.customer_name}.",
-  "root_cause": "1-2 sentence root cause analysis from banking operations perspective.",
-  "action_items": ["action 1", "action 2", "action 3"],
-  "escalate_to": "{ESCALATION_DEPARTMENTS.get(predictions['category'], 'Customer Service Team')}",
-  "resolution_sla": "{SLA_HOURS.get(predictions['severity'], 72)} hours",
-  "priority_score": 8,
-  "customer_tone_tip": "Short tip for agent on handling this customer emotion",
-  "regulatory_flag": true or false,
-  "regulatory_reason": "Reason if regulatory_flag is true, else empty string"
-}}
-"""
+    
+    # RAG Retrieval
+    policies = rag_engine.search_policies(req.complaint_text, top_k=3)
+    
+    # Deterministic generation (No LLM)
     try:
-        result = call_gemini(prompt)
+        primary_policy = policies[0] if policies else None
+        
+        # 1. Draft Response
+        draft_msg = f"Dear {req.customer_name},\nWe have received your complaint regarding {predictions['category']}. "
+        if primary_policy:
+            draft_msg += f"Our team is investigating this in accordance with the {primary_policy['source']} guidelines."
+        else:
+            draft_msg += "Our team is investigating this matter."
+            
+        # 2. Root Cause
+        root_cause = f"Issue relates to {predictions['category']} operations."
+        if primary_policy:
+            snippet = primary_policy['text'][:120] + "..." if len(primary_policy['text']) > 120 else primary_policy['text']
+            root_cause += f" [Source: {primary_policy['source']}] - {snippet}"
+            
+        # 3. Action Items
+        action_items = [
+            "Log complaint details in the CRM",
+            f"Assign to {ESCALATION_DEPARTMENTS.get(predictions['category'], 'Customer Service Team')}"
+        ]
+        if primary_policy:
+            action_items.append(f"Follow resolution steps outlined in {primary_policy['source']}")
+            
+        # 4. Regulatory Engine
+        rbi_keywords = ["rbi", "ombudsman", "regulatory", "compliance", "fraud", "penalty"]
+        text_to_check = req.complaint_text.lower()
+        if primary_policy:
+            text_to_check += " " + primary_policy['text'].lower()
+            
+        reg_flag = False
+        reg_reason = ""
+        
+        if any(kw in text_to_check for kw in rbi_keywords) or predictions['severity'] in ['High', 'Critical']:
+            reg_flag = True
+            if primary_policy:
+                reg_reason = f"Flagged due to potential regulatory impact or high severity. [Source: {primary_policy['source']}]"
+            else:
+                reg_reason = "Flagged due to potential regulatory impact or high severity."
+                
+        # 5. Priority Score & Tone
+        priority_score = {"Critical": 10, "High": 8, "Medium": 5, "Low": 3}.get(predictions['severity'], 5)
+        tone_tips = {
+            "Negative": "Use an empathetic, patient, and reassuring tone.",
+            "Neutral": "Maintain a clear and professional tone.",
+            "Positive": "Acknowledge their positive sentiment and remain helpful."
+        }
+        
         return {
-            **result,
+            "draft_response": draft_msg,
+            "root_cause": root_cause,
+            "action_items": action_items,
+            "escalate_to": ESCALATION_DEPARTMENTS.get(predictions['category'], 'Customer Service Team'),
+            "resolution_sla": f"{SLA_HOURS.get(predictions['severity'], 72)} hours",
+            "priority_score": priority_score,
+            "customer_tone_tip": tone_tips.get(predictions['sentiment'], "Be professional."),
+            "regulatory_flag": reg_flag,
+            "regulatory_reason": reg_reason,
             "predicted_category" : predictions["category"],
             "predicted_sentiment": predictions["sentiment"],
             "predicted_severity" : predictions["severity"],
@@ -338,6 +419,58 @@ Return a JSON object:
 # ─────────────────────────────────────────
 # SLA ROUTES
 # ─────────────────────────────────────────
+async def auto_triage_agent():
+    """
+    AI Agent that automatically:
+    1. Scans all open complaints
+    2. Auto-escalates Critical + SLA-breached ones
+    3. Logs all actions to communication history
+    """
+    print("🤖 Auto-Triage Agent running...")
+    
+    try:
+        open_complaints = df[(df["is_duplicate"] == False) & 
+                             (df["status"] == "Open")].copy()
+    except Exception as e:
+        print(f"⚠️ Auto-Triage: Could not load complaints — {e}")
+        return
+
+    actions_taken = 0
+
+    for _, row in open_complaints.iterrows():
+        try:
+            cid = row["complaint_id"]
+            sla = get_sla_info(cid, row["severity"], row["created_date"])
+
+            # Auto-escalate only Critical + SLA breached complaints
+            if row["severity"] == "Critical" and sla["is_breached"]:
+                if cid not in escalation_store:
+                    escalation_store[cid] = {
+                        "complaint_id"    : cid,
+                        "escalation_level": "L2",
+                        "reason"          : "Auto-escalated by AI Agent — Critical severity + SLA breached",
+                        "escalated_to"    : ESCALATION_DEPARTMENTS.get(row["category"], "Customer Service Team"),
+                        "escalated_by"    : "AI-CSPARC Auto-Triage Agent",
+                        "escalated_at"    : datetime.now().isoformat(),
+                        "status"          : "Active"
+                    }
+
+                    if cid not in communication_store:
+                        communication_store[cid] = []
+
+                    communication_store[cid].append({
+                        "sender"   : "system",
+                        "message"  : "🤖 AI Agent auto-escalated this complaint — Critical severity with SLA breach detected.",
+                        "channel"  : "AI Agent",
+                        "timestamp": datetime.now().isoformat()
+                    })
+                    actions_taken += 1
+
+        except Exception as e:
+            print(f"⚠️ Skipping complaint {row.get('complaint_id', '?')} — {e}")
+            continue
+
+    print(f"✅ Auto-Triage Agent completed — {actions_taken} actions taken")
 @app.get("/complaints/{complaint_id}/sla")
 def get_sla(complaint_id: str):
     row = df[df["complaint_id"] == complaint_id]
@@ -611,7 +744,7 @@ Return JSON:
 @app.get("/duplicates")
 def get_duplicates():
     try:
-        pairs_df = find_all_duplicate_pairs(threshold=0.82)
+        pairs_df = find_all_duplicate_pairs(threshold=0.70)
         if pairs_df.empty:
             return {"total_pairs": 0, "pairs": []}
         pairs_df = pairs_df.fillna("")
@@ -631,3 +764,58 @@ def get_filter_options():
         "branches"  : sorted(orig["branch"].unique().tolist()),
         "channels"  : sorted(orig["channel"].unique().tolist()),
     }
+
+# ─────────────────────────────────────────
+# AI KNOWLEDGE ASSISTANT ROUTES
+# ─────────────────────────────────────────
+class AssistantQueryRequest(BaseModel):
+    query: str
+    complaint_id: Optional[str] = None
+
+@app.post("/api/assistant/query")
+def assistant_query(req: AssistantQueryRequest):
+    # 1. Retrieve policy chunks
+    policies = rag_engine.search_policies(req.query, top_k=3)
+    policy_context = "\n".join([f"- {p['source']}: {p['text']}" for p in policies])
+    
+    # 2. Retrieve similar historical complaints if a query relates to complaints
+    similar = find_similar_complaints(req.query, top_k=3)
+    similar_context = "\n".join([f"- ID: {s['complaint_id']}, Category: {s['category']}\n  Text: {s['complaint_text']}" for s in similar])
+    
+    # 3. Query Gemini
+    prompt = f"""
+You are an AI Knowledge Assistant for bank officers at Union Bank of India.
+Officer Query: {req.query}
+Related Complaint ID: {req.complaint_id if req.complaint_id else 'None'}
+
+Relevant Policies:
+{policy_context}
+
+Similar Historical Complaints:
+{similar_context}
+
+Synthesize a helpful answer for the officer. Include citations to the policies used, suggest next actions, and provide a draft response if the officer needs to reply to a customer.
+Return a JSON object:
+{{
+  "answer": "Detailed answer explaining what to do",
+  "citations": ["Policy File A", "Policy File B"],
+  "suggested_actions": ["Action 1", "Action 2"],
+  "draft_customer_reply": "Draft reply if applicable, else empty string"
+}}
+"""
+    try:
+        response = call_gemini(prompt)
+        return {
+            "query": req.query,
+            "policies_retrieved": [p["source"] for p in policies],
+            "response": response
+        }
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.on_event("startup")
+async def startup_event():
+    # existing auto-triage
+    asyncio.create_task(auto_triage_agent())
+    # new autonomous resolution agent
+    asyncio.create_task(run_autonomous_resolution_agent(df, communication_store, gemini_client, GEMINI_MODEL))

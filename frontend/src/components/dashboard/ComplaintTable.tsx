@@ -119,23 +119,35 @@ export function ComplaintTable() {
                         onClick={() => setSelected(c)}
                       >
                         <TableCell>
-                          <div>
-                            <p className="font-mono text-xs font-semibold">{c.complaint_id}</p>
-                            {c.complaint_text && (
-                              <p className="text-[11px] text-muted-foreground mt-0.5 line-clamp-1 max-w-[200px]">
-                                {c.complaint_text.slice(0, 60)}…
-                              </p>
-                            )}
-                          </div>
-                        </TableCell>
-                        <TableCell className="text-xs">{c.category}</TableCell>
+  <div>
+    <div className="flex items-center gap-1.5">
+      <p className="font-mono text-xs font-semibold">{c.complaint_id}</p>
+      {c.severity === "Critical" && c.status === "Escalated" && (
+        <span className="text-[10px] font-semibold px-1.5 py-0.5 rounded-full bg-purple-100 text-purple-700 border border-purple-200">
+          ⚡ Agent escalated
+        </span>
+      )}
+    </div>
+    {c.complaint_text && (
+      <p className="text-[11px] text-muted-foreground mt-0.5 line-clamp-1 max-w-[200px]">
+        {c.complaint_text.slice(0, 60)}…
+      </p>
+    )}
+  </div>
+</TableCell>
                         <TableCell>
-                          <Badge variant="outline" className={`text-xs ${sent.classes}`}>
-                            {sent.emoji} {c.sentiment}
+                          <Badge variant="secondary" className="text-[10px] whitespace-nowrap bg-muted border-border">
+                            {c.category}
                           </Badge>
                         </TableCell>
                         <TableCell>
-                          <Badge className={`text-xs ${severityConfig[c.severity] || "bg-muted text-muted-foreground"}`}>
+                          <Badge variant="outline" className={`text-[10px] ${sent.classes}`}>
+                            <span className="mr-1">{sent.emoji}</span>
+                            {c.sentiment}
+                          </Badge>
+                        </TableCell>
+                        <TableCell>
+                          <Badge className={`text-[10px] ${severityConfig[c.severity] || "bg-muted text-muted-foreground"}`}>
                             {c.severity}
                           </Badge>
                         </TableCell>

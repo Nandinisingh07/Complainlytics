@@ -34,15 +34,15 @@ export function AppSidebar() {
     <Sidebar collapsible="icon">
       <SidebarContent>
         {/* Logo */}
-        <div className="p-4 border-b border-sidebar-border">
-          <div className="flex items-center gap-3">
+        <div className={`border-b border-sidebar-border transition-all duration-200 ${collapsed ? "p-1 py-4" : "p-4"}`}>
+          <div className={`flex items-center gap-3 ${collapsed ? "justify-center" : ""}`}>
             <div className="h-10 w-10 rounded-xl bg-sidebar-primary flex items-center justify-center text-sidebar-primary-foreground font-extrabold text-sm shrink-0 shadow-lg">
               UBI
             </div>
             {!collapsed && (
               <div className="overflow-hidden">
                 <p className="text-sm font-bold text-sidebar-primary truncate">Union Bank of India</p>
-                <p className="text-[10px] text-sidebar-muted truncate">iDEA PS5 · Complaint Hub</p>
+                <p className="text-[10px] text-sidebar-muted truncate">Complainlytics · Complaint Hub</p>
               </div>
             )}
           </div>
@@ -86,7 +86,7 @@ export function AppSidebar() {
         {!collapsed && (
           <div className="mt-auto p-4 border-t border-sidebar-border">
             <p className="text-[10px] text-sidebar-muted text-center">
-              iDEA Hackathon 2.0 · Union Bank of India
+              Union Bank of India
             </p>
           </div>
         )}

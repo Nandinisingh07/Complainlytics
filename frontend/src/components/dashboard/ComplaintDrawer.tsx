@@ -9,7 +9,7 @@ import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
 import {
   Loader2, CheckCircle, Clock, AlertTriangle, User,
-  MessageSquare, Send, ArrowUpCircle, ShieldAlert, ChevronDown
+  MessageSquare, Send, ArrowUpCircle, ShieldAlert, ChevronDown, Bot
 } from "lucide-react";
 import { toast } from "sonner";
 
@@ -353,9 +353,20 @@ export function ComplaintDrawer({ complaint, onClose }: Props) {
               <div className="space-y-3 max-h-96 overflow-y-auto pr-1">
                 {commData?.communications?.map((msg, i) => (
                   <div key={i}>
-                    {msg.sender === "system" ? (
-                      <div className="text-center">
-                        <span className="text-[10px] text-muted-foreground bg-muted px-2 py-0.5 rounded-full">
+                    {msg.type === "auto_resolution" ? (
+                      <div className="flex gap-2 flex-col items-center my-4">
+                        <div className="bg-blue-50 border border-blue-200 rounded-xl p-3 text-xs w-[90%] mx-auto relative shadow-sm">
+                          <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-blue-100 p-1 rounded-full border border-blue-200">
+                             <Bot className="h-3 w-3 text-blue-600" />
+                          </div>
+                          <p className="text-blue-800 font-semibold text-center mb-1 mt-1">Autonomous Resolution</p>
+                          <p className="text-blue-700 text-center leading-relaxed">{msg.message.replace("🤖 Autonomous Agent auto-resolved this complaint. Reasoning: ", "")}</p>
+                          <p className="text-[9px] text-blue-500/70 text-center mt-2">{msg.timestamp?.slice(0, 16).replace("T", " ")}</p>
+                        </div>
+                      </div>
+                    ) : msg.sender === "system" ? (
+                      <div className="text-center my-2">
+                        <span className="text-[10px] text-muted-foreground bg-muted px-2 py-1 border border-border rounded-full shadow-sm">
                           {msg.message}
                         </span>
                       </div>

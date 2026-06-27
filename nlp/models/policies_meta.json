@@ -1,0 +1,87 @@
+[
+  {
+    "source": "fraud_handling_sop.txt",
+    "chunk_id": "fraud_handling_sop.txt_0",
+    "text": "Standard Operating Procedure (SOP) for Fraud Handling"
+  },
+  {
+    "source": "fraud_handling_sop.txt",
+    "chunk_id": "fraud_handling_sop.txt_1",
+    "text": "1. Immediate Card Blocking: Upon receiving any intimation of a fraudulent transaction on a Debit or Credit card, the system/agent must immediately hotlist/block the card to prevent further misuse.\n2. Account Freeze: If large unauthorized NEFT/RTGS transfers are detected or reported, a temporary debit freeze must be applied to the account.\n3. Chargeback Initiation: For credit card disputes, a chargeback must be initiated via the Visa/Mastercard/RuPay network within 48 hours of receiving the signed dispute form.\n4. Cyber Crime Reporting: Customers must be advised to register a complaint on the National Cyber Crime Reporting Portal (cybercrime.gov.in) for amounts exceeding Rs. 50,000.\n5. Internal Investigation: Fraud cases must be assigned to the Fraud Risk Management (FRM) team. The investigation must conclude within 90 days. During this period, provisional credit may be granted to the customer depending on the RBI liability guidelines."
+  },
+  {
+    "source": "rbi_guidelines.txt",
+    "chunk_id": "rbi_guidelines.txt_0",
+    "text": "Reserve Bank of India (RBI) Guidelines on Customer Service and Grievance Redressal"
+  },
+  {
+    "source": "rbi_guidelines.txt",
+    "chunk_id": "rbi_guidelines.txt_1",
+    "text": "1. Failed ATM Transactions: Banks must resolve customer complaints regarding failed ATM transactions (where the customer's account is debited but cash is not dispensed) within 5 calendar days from the date of receipt of the complaint. Failure to re-credit within this timeline will incur a penalty of Rs. 100 per day of delay payable to the customer."
+  },
+  {
+    "source": "rbi_guidelines.txt",
+    "chunk_id": "rbi_guidelines.txt_2",
+    "text": "2. Pending UPI Transactions: If a Unified Payments Interface (UPI) transaction is pending or failed but the account is debited, the auto-reversal must be completed by the bank within T+1 day (Transaction date + 1 day). If not resolved, a penalty of Rs. 100 per day applies."
+  },
+  {
+    "source": "rbi_guidelines.txt",
+    "chunk_id": "rbi_guidelines.txt_3",
+    "text": "3. Unauthorized Electronic Transactions: Customers must report unauthorized transactions within 3 working days to have zero liability. If reported between 4 to 7 working days, liability is limited to the transaction value or Rs. 10,000 (whichever is lower). Beyond 7 days, liability is determined by the bank's board-approved policy."
+  },
+  {
+    "source": "rbi_guidelines.txt",
+    "chunk_id": "rbi_guidelines.txt_4",
+    "text": "4. General Complaints: All customer complaints must receive a formal acknowledgment within 3 days, and a final resolution or status update must be provided within 30 days of the complaint receipt."
+  },
+  {
+    "source": "sla_escalation_matrix.txt",
+    "chunk_id": "sla_escalation_matrix.txt_0",
+    "text": "Service Level Agreement (SLA) & Escalation Matrix"
+  },
+  {
+    "source": "sla_escalation_matrix.txt",
+    "chunk_id": "sla_escalation_matrix.txt_1",
+    "text": "Severity Classification and Timelines:\n- Critical (e.g., Active fraud, system outage): 4 hours\n- High (e.g., Blocked card, urgent medical loan): 24 hours\n- Medium (e.g., General complaints, fee reversals): 72 hours\n- Low (e.g., Information request, branch feedback): 168 hours (7 days)"
+  },
+  {
+    "source": "sla_escalation_matrix.txt",
+    "chunk_id": "sla_escalation_matrix.txt_2",
+    "text": "Escalation Mapping:\n- ATM / Debit Card -> ATM & Card Operations Team\n- Credit Card -> Credit Card Disputes Team\n- Fund Transfer / NEFT / RTGS -> NEFT/RTGS Operations Team\n- Internet Banking -> Digital Banking Support\n- Mobile Banking App -> Mobile Banking Dev Team\n- KYC / Documentation -> KYC Compliance Team\n- Loan Services -> Loan Operations Department\n- Account Opening -> Account Services Team\n- Fixed Deposit -> Deposits & Treasury Team\n- Customer Service -> Branch Service Quality Team"
+  },
+  {
+    "source": "sla_escalation_matrix.txt",
+    "chunk_id": "sla_escalation_matrix.txt_3",
+    "text": "Escalation Protocol:\n1. If SLA is breached, escalate immediately to the Level 1 manager of the mapped department.\n2. If SLA breach exceeds 48 hours, escalate to the Zonal Head.\n3. If SLA breach exceeds 5 days, escalate to Principal Nodal Officer and trigger a regulatory compliance alert."
+  },
+  {
+    "source": "ubi_grievance_policy.txt",
+    "chunk_id": "ubi_grievance_policy.txt_0",
+    "text": "Union Bank of India - Grievance Redressal Policy"
+  },
+  {
+    "source": "ubi_grievance_policy.txt",
+    "chunk_id": "ubi_grievance_policy.txt_1",
+    "text": "1. Branch Level Resolution: The Branch Manager is the first point of contact. Customers can register complaints via the complaint book, portal, or call center. Branch-level complaints should be resolved within 3 to 7 working days depending on severity."
+  },
+  {
+    "source": "ubi_grievance_policy.txt",
+    "chunk_id": "ubi_grievance_policy.txt_2",
+    "text": "2. Escalation Level 1 (Regional/Zonal Node): If the branch fails to resolve the issue within 7 days, the complaint is escalated to the Zonal Grievance Officer. They have 7 to 14 days to resolve the matter."
+  },
+  {
+    "source": "ubi_grievance_policy.txt",
+    "chunk_id": "ubi_grievance_policy.txt_3",
+    "text": "3. Escalation Level 2 (Principal Nodal Officer): If the complaint remains unresolved after 14 days, it is escalated to the Principal Nodal Officer at the Corporate Office. Maximum time at this stage is 15 days."
+  },
+  {
+    "source": "ubi_grievance_policy.txt",
+    "chunk_id": "ubi_grievance_policy.txt_4",
+    "text": "4. Internal Ombudsman: If the bank decides to reject a complaint partially or fully, the decision must be reviewed by the Internal Ombudsman before informing the customer."
+  },
+  {
+    "source": "ubi_grievance_policy.txt",
+    "chunk_id": "ubi_grievance_policy.txt_5",
+    "text": "5. AI Auto-Resolution: For low-risk repetitive issues such as failed ATM transactions, pending UPI transfers, and routine account balance inquiries, automated systems are authorized to resolve the complaint instantly upon verification with the Core Banking System (CBS). Auto-resolved tickets must contain an audit trail."
+  }
+]
